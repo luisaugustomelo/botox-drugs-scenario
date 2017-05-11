@@ -111,8 +111,7 @@ public class RuleTest {
         EntryPoint bigClients = session.getEntryPoint("big client");
         for (int i = 0; i < 101; i++) {
 //            bigClients.insert(new TransactionEvent(client4.getId(), 20.0));
-            //bigClients.insert(new TransactionEvent(client1.getId(), 20.0));
-        	bigClients.insert(new TransactionEvent(client1.getId(), 20.0));
+            bigClients.insert(new TransactionEvent(client1.getId(), 20.0));
         }
 
         LOG.info("Final checks");
