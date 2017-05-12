@@ -8,13 +8,14 @@ import org.kie.api.definition.type.Timestamp;
 
 @Role(Role.Type.EVENT)
 @Timestamp("executionTime")
-public class SuspiciousActivity {
-    private  Client client;
-    private List<TransactionEvent> transactionEvents;
+public class TempRiseActivity {
+    private  Data data;
+    private List<TemperatureEvent> transactionEvents;
     private  String description;
     private Date executionTime;
-    public SuspiciousActivity(Client client, List<TransactionEvent> transactionEvents, String description) {
-        this.client = client;
+    
+    public TempRiseActivity(Data data, List<TemperatureEvent> transactionEvents, String description) {
+        this.data = data;
         this.transactionEvents = transactionEvents;
         this.description = description;
         this.executionTime = new Date();
@@ -22,22 +23,22 @@ public class SuspiciousActivity {
 
     @Override
     public String toString() {
-        return "Client:" + client.getName() + ", Transactions Amount:" + transactionEvents.size() + ", description: " + description;
+        return "Temp:" + data.getTemperature() + ", Transactions Amount:" + transactionEvents.size() + ", description: " + description;
     }
 
-    public Client getClient() {
-        return client;
+    public Data getData() {
+        return data;
     }
 
-    public void setClient(Client client) {
-        this.client = client;
+    public void setClient(Data data) {
+        this.data = data;
     }
 
-    public List<TransactionEvent> getTransactionEvents() {
+    public List<TemperatureEvent> getTransactionEvents() {
         return transactionEvents;
     }
 
-    public void setTransactionEvents(List<TransactionEvent> transactionEvents) {
+    public void setTransactionEvents(List<TemperatureEvent> transactionEvents) {
         this.transactionEvents = transactionEvents;
     }
 

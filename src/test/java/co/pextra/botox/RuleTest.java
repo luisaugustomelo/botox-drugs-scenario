@@ -84,34 +84,35 @@ public class RuleTest {
 
         LOG.info("Now running data");
 
-        Client client1 = new Client("John doe", 1L);
-        session.insert(client1);
+        Data temp1 = new Data(-3.2, 1);
+        session.insert(temp1);
         for (int i = 0; i < 15; i++) {
-            session.insert(new TransactionEvent(client1.getId(), 0.0));
+            session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
         }
 
-        Client client2 = new Client("David Hasselhoft", 2L);
-        session.insert(client2);
+        Data temp2 = new Data(-8, 1);
+        session.insert(temp2);
         for (int i = 0; i < 2; i++) {
 //            session.insert(new TransactionEvent(client2.getId(), 2001.0));
-            session.insert(new TransactionEvent(client1.getId(), 2001.0));
+            session.insert(new TemperatureEvent(temp2.getTemperature(), temp2.getSensorId()));
         }
 
-        Client client3 = new Client("Little fish", 3L);
-        session.insert(client3);
+        Data temp3 = new Data(-4, 1);
+        session.insert(temp3);
 
-        EntryPoint smallClients = session.getEntryPoint("small client");
+        EntryPoint lowTemp = session.getEntryPoint("low temperature");
         for (int i = 0; i < 11; i++) {
             //smallClients.insert(new TransactionEvent(client3.getId(), 20.0));
-            smallClients.insert(new TransactionEvent(client1.getId(), 20.0));
+        	lowTemp.insert(new TemperatureEvent(temp3.getTemperature(), temp3.getSensorId()));
         }
-        Client client4 = new Client("Big fish", 4L);
-        session.insert(client4);
+        
+        Data temp4 = new Data(1, 1);
+        session.insert(temp4);
 
-        EntryPoint bigClients = session.getEntryPoint("big client");
+        EntryPoint highTemp = session.getEntryPoint("high temperature");
         for (int i = 0; i < 101; i++) {
 //            bigClients.insert(new TransactionEvent(client4.getId(), 20.0));
-            bigClients.insert(new TransactionEvent(client1.getId(), 20.0));
+        	highTemp.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
         }
 
         LOG.info("Final checks");

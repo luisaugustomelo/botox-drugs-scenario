@@ -7,18 +7,18 @@ import br.ufes.inf.lprm.scene.util.SituationHelper;
 import br.ufes.inf.lprm.situation.annotations.part;
 import br.ufes.inf.lprm.situation.model.events.*;
 
-declare SuspiciousSituation extends Situation
-    client: Client @part
+declare temperatureSituation extends Situation
+    data: Data @part
     transactions: List @part
 end
 
 rule "More than 10 transactions in an hour from one client"
 @role(situation)
-@type(SuspiciousSituation)
+@type(TemperatureSituation)
     when
-     client : Client()
+     data : Data()
      transactions: List(size > 10) from accumulate(
-        transaction: TransactionEvent(customerId == client.id) over window:time (1h),
+        transaction: TempRiseActivity(temperature == data.getTemperature()) over window:time (2m),
         collectList(transaction)
      )
      then
@@ -27,11 +27,11 @@ end
 
 rule "More than 1 transaction of 200 dollars in an hour from the same client"
 @role(situation)
-@type(SuspiciousSituation)
+@type(TemperatureSituation)
     when
-      client: Client()
+      data : Data()
       transactions: List(size > 1) from accumulate(
-        transaction: TransactionEvent(customerId == client.id, totalAmount > 200) over window:time (1h),
+        transaction: TempRiseActivity(temperature == data.getTemperature(), sensor_id == 1) over window:time (2m),
         collectList(transaction)
       )
     then
@@ -41,11 +41,11 @@ end
 
 rule "More than 10 transactions in an hour from small client portal"
 @role(situation)
-@type(SuspiciousSituation)
+@type(TemperatureSituation)
     when
-      client: Client()
+      data : Data()
       transactions: List(size > 10) from accumulate(
-        transaction: TransactionEvent(customerId == client.id) over window:time (1h) from entry-point "small client",
+        transaction: TempRiseActivity(temperature == data.getTemperature()) over window:time (2m) from entry-point "low temperature",
         collectList(transaction)
       )
     then
@@ -55,11 +55,11 @@ end
 
 rule "More than 100 transactions in an hour from big client portal"
 @role(situation)
-@type(SuspiciousSituation)
+@type(TemperatureSituation)
     when
-      client: Client()
+      data : Data()
       transactions: List(size > 100) from accumulate(
-        transaction: TransactionEvent(customerId == client.id) over window:time (1h) from entry-point "big client",
+        transaction: TempRiseActivity(temperature == data.getTemperature()) over window:time (2m) from entry-point "high temperature",
         collectList(transaction)
       )
     then
@@ -68,18 +68,18 @@ end
 
 rule "More than 3 suspicious cases in the day and we warn the owner"
     when
-      c: Client()
-      suspiciousSituation: List(size > 3) from accumulate (
-        Activation($sit: situation, $sit isA SuspiciousSituation.class, ((SuspiciousSituation) $sit).client == c ) over window:time (1h);
+      d: Data()
+      temperatureSituation: List(size > 3) from accumulate (
+        Activation($sit: situation, $sit isA TemperatureSituation.class, ((TemperatureSituation) $sit).data == d ) over window:time (2m);
         collectList($sit)
       )
      then
-       System.out.println("WARNING! " + c.getName());
+       System.out.println("WARNING! " + d.getTemperature());
 end
 
-rule "StartProccess"
+/*rule "StartProccess"
     when
-    	$sit: SuspiciousSituation()
+    	$sit: TemperatureSituation()
     then
         //Dispara processo.
 end
@@ -100,4 +100,4 @@ rule "StartProccess"
       )
     then
         //Dispara processo.
-end
+end*/
