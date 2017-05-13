@@ -86,6 +86,22 @@ public class RuleTest {
 
         Data temp1 = new Data(-3.2, 1);
         session.insert(temp1);
+        Data temp2 = new Data(-2.5, 1);
+        session.insert(temp2);
+        Data temp3 = new Data(-2.2, 1);
+        session.insert(temp3);
+        Data temp4 = new Data(1, 1);
+        session.insert(temp4);
+        Data temp5 = new Data(2, 1);
+        session.insert(temp5);
+        
+        session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
+        session.insert(new TemperatureEvent(temp2.getTemperature(), temp2.getSensorId()));
+        session.insert(new TemperatureEvent(temp3.getTemperature(), temp3.getSensorId()));
+        session.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
+        session.insert(new TemperatureEvent(temp5.getTemperature(), temp5.getSensorId()));
+        
+        /*session.insert(temp1);
         for (int i = 0; i < 15; i++) {
             session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
         }
@@ -113,7 +129,7 @@ public class RuleTest {
         for (int i = 0; i < 101; i++) {
 //            bigClients.insert(new TransactionEvent(client4.getId(), 20.0));
         	highTemp.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
-        }
+        }*/
 
         LOG.info("Final checks");
 
