@@ -22,7 +22,7 @@ package co.pextra.botox;
 //import java.util.Set;
 //import java.util.concurrent.TimeUnit;
 
-//import br.ufes.inf.lprm.scene.SceneApplication;
+import br.ufes.inf.lprm.scene.SceneApplication;
 import br.ufes.inf.lprm.scene.base.listeners.SCENESessionListener;
 
 //import org.drools.core.time.SessionPseudoClock;
@@ -75,7 +75,7 @@ public class RuleTest {
         LOG.info("Creating kieSession");
         KieSession session = kieBase.newKieSession();
 
-        //SceneApplication app = new SceneApplication("fraud-scenario", session);
+        SceneApplication app = new SceneApplication("botox-drugs-scenario", session);
 
         session.addEventListener(new SCENESessionListener());
 
