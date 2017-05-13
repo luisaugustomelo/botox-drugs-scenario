@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <drools-version>6.5.0.Final</drools-version>
+    <version.org.jbpm>6.5.0.Final</version.org.jbpm>
     <slf4j-version>1.7.2</slf4j-version>
     <junit-version>4.12</junit-version>
   </properties>
@@ -26,6 +27,13 @@
         <version>${drools-version}</version>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.jbpm</groupId>
+        <artifactId>jbpm-bom</artifactId>
+        <type>pom</type>
+        <version>${version.org.jbpm}</version>
+        <scope>import</scope>
+	  </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -35,30 +43,48 @@
         <groupId>org.drools</groupId>
         <artifactId>drools-compiler</artifactId>
         <scope>test</scope>
-      </dependency>
-
+    </dependency>
+	<dependency>
+	      <groupId>org.jbpm</groupId>
+	      <artifactId>jbpm-flow</artifactId>
+	</dependency>
+	<dependency>
+	      <groupId>org.jbpm</groupId>
+	      <artifactId>jbpm-flow-builder</artifactId>
+	</dependency>
+	<dependency>
+	      <groupId>org.jbpm</groupId>
+	      <artifactId>jbpm-bpmn2</artifactId>
+	</dependency>
+	<dependency>
+	      <groupId>org.jbpm</groupId>
+	      <artifactId>jbpm-persistence-jpa</artifactId>
+	</dependency>
+	<dependency>
+	      <groupId>org.jbpm</groupId>
+	      <artifactId>jbpm-runtime-manager</artifactId>
+	</dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${junit-version}</version>
-      <scope>test</scope>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <version>${junit-version}</version>
+	      <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>${slf4j-version}</version>
-      <scope>test</scope>
+	      <groupId>org.slf4j</groupId>
+	      <artifactId>slf4j-log4j12</artifactId>
+	      <version>${slf4j-version}</version>
+	      <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.kie</groupId>
-      <artifactId>kie-api</artifactId>
-      <version>${drools-version}</version>
+	      <groupId>org.kie</groupId>
+	      <artifactId>kie-api</artifactId>
+	      <version>${drools-version}</version>
     </dependency>
-
     <dependency>
-      <groupId>br.ufes.inf.lprm</groupId>
-      <artifactId>scene-core</artifactId>
-      <version>1.1.1</version>
+	      <groupId>br.ufes.inf.lprm</groupId>
+	      <artifactId>scene-core</artifactId>
+	      <version>1.1.1</version>
     </dependency>
   </dependencies>
 

@@ -39,7 +39,7 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 //import org.kie.api.runtime.KieSessionConfiguration;
 //import org.kie.api.runtime.conf.ClockTypeOption;
-import org.kie.api.runtime.rule.EntryPoint;
+//import org.kie.api.runtime.rule.EntryPoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -55,6 +55,7 @@ public class RuleTest {
         KieServices kieServices = KieServices.Factory.get();
 
         KieContainer kContainer = kieServices.getKieClasspathContainer();
+        
         Results verifyResults = kContainer.verify();
         for (Message m : verifyResults.getMessages()) {
             LOG.info("{}", m);

@@ -6,6 +6,7 @@ import br.ufes.inf.lprm.scene.model.impl.Situation;
 import br.ufes.inf.lprm.scene.util.SituationHelper;
 import br.ufes.inf.lprm.situation.annotations.part;
 import br.ufes.inf.lprm.situation.model.events.*;
+import org.kie.api.runtime.process.ProcessInstance;
 
 declare TemperatureSituation extends Situation
     data: Data @part
@@ -42,5 +43,6 @@ rule "start botox situation when have a one case suspicious"
          collectList($sit)
        )
 	then
-		System.out.println("uma situação de temperatura ocorreu");
+		ProcessInstance processInstance = kcontext.getKieRuntime().startProcess("co.pextra.botox.notification");
+		//System.out.println("uma situação de temperatura ocorreu");
 end

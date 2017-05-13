@@ -9,7 +9,7 @@ import org.kie.api.definition.type.Timestamp;
 
 @Role(Role.Type.EVENT)
 @Timestamp("executionTime")
-@Expires("5m")
+@Expires("2m")
 public class TemperatureEvent implements Serializable {
 
     private static final long serialVersionUID = 1L;
