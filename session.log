@@ -437,3 +437,375 @@ Unable to resolve ObjectType 'System.out.println' : [Rule name='More than 3 high
 00:41:03,879 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1b11ef33
 00:41:03,879 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@476aac9
 00:41:03,879  INFO RuleTest:134 - Final checks
+00:43:09,730  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:43:09,744 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:43:10,245  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:43:10,254  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:43:10,256 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:43:10,262  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:43:10,262  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:43:10,262 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:43:10,271  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:43:10,272  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:43:10,272  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:43:10,325 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:43:10,326  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:43:14,705  INFO RuleTest:62 - Creating kieBase
+00:43:14,804 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:43:14,975  INFO RuleTest:68 - There should be rules: 
+00:43:14,977  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+00:43:14,977  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule Start a temperature situation
+00:43:14,977  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+00:43:14,977  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+00:43:14,978  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+00:43:14,978  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+00:43:14,978  INFO RuleTest:75 - Creating kieSession
+00:43:15,070  INFO RuleTest:85 - Now running data
+00:43:15,074 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@9f46d94
+00:43:15,075 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@578524c3
+00:43:15,075 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@64c2b546
+00:43:15,075 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@7e094740
+00:43:15,075 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@7a11c4c7
+00:43:15,078 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3591009c
+00:43:15,079 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5398edd0
+00:43:15,079 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@b5cc23a
+00:43:15,079 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5cc5b667
+00:43:15,079 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@61edc883
+00:43:15,080  INFO RuleTest:134 - Final checks
+00:48:37,442  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:48:37,478 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:48:37,919  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:48:37,930  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:48:37,932 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:48:37,973  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:48:37,973  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:48:37,974 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:48:37,984  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:48:37,985  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:48:37,985  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:48:37,991 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:48:37,991  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:48:41,317 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:botox-drugs-scenario
+[35,8]: [ERR 102] Line 35:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"
+[0,0]: Parser returned a null Package
+
+00:48:41,903  INFO RuleTest:59 - Message [id=1, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=35, column=0
+   text=[ERR 102] Line 35:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"]
+00:48:41,904  INFO RuleTest:59 - Message [id=2, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=0, column=0
+   text=Parser returned a null Package]
+00:48:41,907  INFO RuleTest:62 - Creating kieBase
+00:48:42,016 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:48:42,098  INFO RuleTest:68 - There should be rules: 
+00:48:42,098  INFO RuleTest:75 - Creating kieSession
+00:48:42,306  INFO RuleTest:85 - Now running data
+00:48:42,312 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@2d10e0b1
+00:48:42,313 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@79e18e38
+00:48:42,314 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@29a60c27
+00:48:42,314 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1849db1a
+00:48:42,314 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69c79f09
+00:48:42,322 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@62679465
+00:48:42,322 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6a988392
+00:48:42,322 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1d71006f
+00:48:42,323 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5b6813df
+00:48:42,323 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5f2606b
+00:48:42,323  INFO RuleTest:134 - Final checks
+00:49:26,639  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:49:26,680 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:49:27,207  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:49:27,251  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:49:27,253 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:49:27,259  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:49:27,260  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:49:27,260 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:27,269  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:27,270  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:27,270  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:49:27,328 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:49:27,330  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:49:31,200 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:botox-drugs-scenario
+[34,8]: [ERR 102] Line 34:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"
+[0,0]: Parser returned a null Package
+
+00:49:31,768  INFO RuleTest:59 - Message [id=1, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=34, column=0
+   text=[ERR 102] Line 34:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"]
+00:49:31,768  INFO RuleTest:59 - Message [id=2, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=0, column=0
+   text=Parser returned a null Package]
+00:49:31,770  INFO RuleTest:62 - Creating kieBase
+00:49:31,946 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:49:32,025  INFO RuleTest:68 - There should be rules: 
+00:49:32,026  INFO RuleTest:75 - Creating kieSession
+00:49:32,241  INFO RuleTest:85 - Now running data
+00:49:32,247 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@2d10e0b1
+00:49:32,248 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@79e18e38
+00:49:32,249 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@29a60c27
+00:49:32,250 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1849db1a
+00:49:32,250 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69c79f09
+00:49:32,325 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@62679465
+00:49:32,327 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6a988392
+00:49:32,328 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1d71006f
+00:49:32,328 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5b6813df
+00:49:32,329 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5f2606b
+00:49:32,329  INFO RuleTest:134 - Final checks
+00:49:49,558  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:49:49,563 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:49:50,198  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:49:50,208  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:49:50,210 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:49:50,215  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:49:50,216  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:49:50,216 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:50,292  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:50,292  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:49:50,293  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:49:50,299 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:49:50,299  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:49:54,208 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:botox-drugs-scenario
+[33,8]: [ERR 102] Line 33:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"
+[0,0]: Parser returned a null Package
+
+00:49:54,795  INFO RuleTest:59 - Message [id=1, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=33, column=0
+   text=[ERR 102] Line 33:8 mismatched input 'System' in rule "More than 3 high temperatures in two minutes for a sensor of temperature"]
+00:49:54,795  INFO RuleTest:59 - Message [id=2, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=0, column=0
+   text=Parser returned a null Package]
+00:49:54,798  INFO RuleTest:62 - Creating kieBase
+00:49:54,916 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:49:55,016  INFO RuleTest:68 - There should be rules: 
+00:49:55,016  INFO RuleTest:75 - Creating kieSession
+00:49:55,257  INFO RuleTest:85 - Now running data
+00:49:55,339 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@2d10e0b1
+00:49:55,340 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@79e18e38
+00:49:55,340 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@29a60c27
+00:49:55,340 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1849db1a
+00:49:55,340 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69c79f09
+00:49:55,345 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@62679465
+00:49:55,346 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6a988392
+00:49:55,346 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1d71006f
+00:49:55,347 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5b6813df
+00:49:55,347 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5f2606b
+00:49:55,347  INFO RuleTest:134 - Final checks
+00:52:21,868  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:52:21,873 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:52:22,599  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:52:22,668  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:52:22,670 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:52:22,675  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:52:22,675  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:52:22,675 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:52:22,685  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:52:22,685  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:52:22,685  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:52:22,691 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:52:22,691  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:52:28,913  INFO RuleTest:62 - Creating kieBase
+00:52:29,078 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:52:29,316  INFO RuleTest:68 - There should be rules: 
+00:52:29,321  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+00:52:29,321  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 suspicious cases in the two minutes and we warn the owner
+00:52:29,322  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+00:52:29,322  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+00:52:29,323  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+00:52:29,323  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+00:52:29,323  INFO RuleTest:75 - Creating kieSession
+00:52:29,483  INFO RuleTest:85 - Now running data
+00:52:29,487 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69f63d95
+00:52:29,487 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@548e76f1
+00:52:29,487 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5aabbb29
+00:52:29,488 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@72c927f1
+00:52:29,488 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ac85b0c
+00:52:29,490 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@59a67c3a
+00:52:29,490 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5003041b
+00:52:29,491 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
+00:52:29,491 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@16fb356
+00:52:29,491 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6bc248ed
+00:52:29,491  INFO RuleTest:134 - Final checks
+00:54:03,371  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:54:03,376 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:54:04,144  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:54:04,224  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:54:04,226 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:54:04,232  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:54:04,232  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:54:04,232 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:54:04,240  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:54:04,241  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:54:04,241  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:54:04,247 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:54:04,247  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:54:11,144  INFO RuleTest:62 - Creating kieBase
+00:54:11,331 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:54:11,621  INFO RuleTest:68 - There should be rules: 
+00:54:11,624  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+00:54:11,624  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 suspicious cases in the two minutes and we warn the owner
+00:54:11,624  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+00:54:11,624  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+00:54:11,625  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+00:54:11,625  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+00:54:11,625  INFO RuleTest:75 - Creating kieSession
+00:54:11,801  INFO RuleTest:85 - Now running data
+00:54:11,805 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69f63d95
+00:54:11,805 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@548e76f1
+00:54:11,806 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5aabbb29
+00:54:11,806 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@72c927f1
+00:54:11,806 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ac85b0c
+00:54:11,808 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@59a67c3a
+00:54:11,808 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5003041b
+00:54:11,809 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
+00:54:11,809 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@16fb356
+00:54:11,809 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6bc248ed
+00:54:11,809  INFO RuleTest:134 - Final checks
+00:55:02,599  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:55:02,675 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:55:03,548  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:55:03,626  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:55:03,628 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:55:03,634  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:55:03,634  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:55:03,634 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:03,644  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:03,644  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:03,645  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:55:03,764 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:55:03,764  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:55:10,344 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:botox-drugs-scenario
+Unable to Analyse Expression ((TemperatureSituation) $sit).data > 3:
+[Error: Comparison operation requires compatible types. Found class co.pextra.botox.Data and class java.lang.Integer]
+[Near : {... ((TemperatureSituation) $sit).data > 3 ....}]
+                                                  ^
+[Line: 34, Column: 8] : [Rule name='More than 3 suspicious cases in the two minutes and we warn the owner']
+
+
+00:55:11,062  INFO RuleTest:59 - Message [id=1, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=34, column=0
+   text=Unable to Analyse Expression ((TemperatureSituation) $sit).data > 3:
+[Error: Comparison operation requires compatible types. Found class co.pextra.botox.Data and class java.lang.Integer]
+[Near : {... ((TemperatureSituation) $sit).data > 3 ....}]
+                                                  ^
+[Line: 34, Column: 8]]
+00:55:11,062  INFO RuleTest:62 - Creating kieBase
+00:55:11,271 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:55:11,368  INFO RuleTest:68 - There should be rules: 
+00:55:11,369  INFO RuleTest:75 - Creating kieSession
+00:55:11,567  INFO RuleTest:85 - Now running data
+00:55:11,571 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1eba372c
+00:55:11,577 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@29876704
+00:55:11,577 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4816c290
+00:55:11,577 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4940809c
+00:55:11,577 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@16423501
+00:55:11,580 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@307765b4
+00:55:11,580 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4a9e6faf
+00:55:11,580 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2c95ac9e
+00:55:11,580 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4e4efc1b
+00:55:11,581 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@459f7aa3
+00:55:11,581  INFO RuleTest:134 - Final checks
+00:55:38,112  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:55:38,186 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:55:39,039  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:55:39,120  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:55:39,122 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:55:39,128  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:55:39,128  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:55:39,128 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:39,141  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:39,141  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:55:39,142  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:55:39,149 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:55:39,149  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:55:46,004 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:botox-drugs-scenario
+Unable to Analyse Expression ((TemperatureSituation) $sit).data > -3:
+[Error: Comparison operation requires compatible types. Found class co.pextra.botox.Data and class java.lang.Integer]
+[Near : {... ((TemperatureSituation) $sit).data > -3 ....}]
+                                                  ^
+[Line: 34, Column: 8] : [Rule name='More than 3 suspicious cases in the two minutes and we warn the owner']
+
+
+00:55:46,784  INFO RuleTest:59 - Message [id=1, kieBase=botox-drugs-scenario, level=ERROR, path=BotoxDrugsScenario.drl, line=34, column=0
+   text=Unable to Analyse Expression ((TemperatureSituation) $sit).data > -3:
+[Error: Comparison operation requires compatible types. Found class co.pextra.botox.Data and class java.lang.Integer]
+[Near : {... ((TemperatureSituation) $sit).data > -3 ....}]
+                                                  ^
+[Line: 34, Column: 8]]
+00:55:46,785  INFO RuleTest:62 - Creating kieBase
+00:55:47,000 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:55:47,113  INFO RuleTest:68 - There should be rules: 
+00:55:47,113  INFO RuleTest:75 - Creating kieSession
+00:55:47,257  INFO RuleTest:85 - Now running data
+00:55:47,336 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1eba372c
+00:55:47,337 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@29876704
+00:55:47,337 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4816c290
+00:55:47,337 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4940809c
+00:55:47,337 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@16423501
+00:55:47,340 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@307765b4
+00:55:47,341 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4a9e6faf
+00:55:47,341 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2c95ac9e
+00:55:47,341 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4e4efc1b
+00:55:47,342 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@459f7aa3
+00:55:47,342  INFO RuleTest:134 - Final checks
+00:58:16,529  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+00:58:16,616 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:58:17,479  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+00:58:17,488  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+00:58:17,567 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+00:58:17,572  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+00:58:17,573  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+00:58:17,573 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:58:17,584  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:58:17,585  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+00:58:17,586  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+00:58:17,593 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+00:58:17,593  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+00:58:25,780  INFO RuleTest:62 - Creating kieBase
+00:58:26,019 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+00:58:26,374  INFO RuleTest:68 - There should be rules: 
+00:58:26,376  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+00:58:26,376  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 suspicious cases in the two minutes and we warn the owner
+00:58:26,376  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+00:58:26,376  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+00:58:26,377  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+00:58:26,377  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+00:58:26,377  INFO RuleTest:75 - Creating kieSession
+00:58:26,601  INFO RuleTest:85 - Now running data
+00:58:26,619 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69f63d95
+00:58:26,619 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@548e76f1
+00:58:26,619 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5aabbb29
+00:58:26,620 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@72c927f1
+00:58:26,620 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ac85b0c
+00:58:26,622 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@59a67c3a
+00:58:26,623 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5003041b
+00:58:26,623 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
+00:58:26,623 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@16fb356
+00:58:26,623 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6bc248ed
+00:58:26,624  INFO RuleTest:134 - Final checks
+01:00:22,190  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+01:00:22,195 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+01:00:23,277  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+01:00:23,386  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+01:00:23,390 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+01:00:23,395  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+01:00:23,396  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+01:00:23,396 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:00:23,405  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:00:23,405  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:00:23,405  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+01:00:23,411 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+01:00:23,412  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+01:00:32,465  INFO RuleTest:62 - Creating kieBase
+01:00:32,716 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+01:00:33,128  INFO RuleTest:68 - There should be rules: 
+01:00:33,130  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+01:00:33,130  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 suspicious cases in the two minutes and we warn the owner
+01:00:33,130  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+01:00:33,130  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+01:00:33,131  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+01:00:33,131  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+01:00:33,131  INFO RuleTest:75 - Creating kieSession
+01:00:33,389  INFO RuleTest:85 - Now running data
+01:00:33,393 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@69f63d95
+01:00:33,393 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@548e76f1
+01:00:33,393 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5aabbb29
+01:00:33,393 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@72c927f1
+01:00:33,394 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ac85b0c
+01:00:33,396 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@59a67c3a
+01:00:33,396 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5003041b
+01:00:33,396 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
+01:00:33,396 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@16fb356
+01:00:33,397 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6bc248ed
+01:00:33,397  INFO RuleTest:134 - Final checks

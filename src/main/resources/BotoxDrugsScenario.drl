@@ -22,15 +22,18 @@ rule "More than 3 high temperatures in two minutes for a sensor of temperature"
         collectList(transaction)
      )
      then
-     	System.out.println(data.getTemperature());
         SituationHelper.situationDetected(drools);
 end
 
-rule "Start a temperature situation"
+rule "More than 3 suspicious cases in the two minutes and we warn the owner"
     when
-    	$sit: TemperatureSituation()
-    then
-        System.out.println("Temperatura elevada!");
+      d: Data()
+      temperatureSituation: List(size > 3) from accumulate (
+        Activation($sit: situation, $sit isA TemperatureSituation.class, ((TemperatureSituation) $sit).data == d ) over window:time (2m);
+        collectList($sit)
+      )
+     then
+       System.out.println("Temperatura elevada!");
 end
 
 
