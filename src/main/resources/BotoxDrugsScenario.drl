@@ -12,107 +12,35 @@ declare TemperatureSituation extends Situation
     transactions: List @part
 end
 
+/*
+Verifica se em uma lista de 3 ou mais temperaturas existem temperaturas acima de -3 graus em uma janela de tempo de 2 minutos. 
+*/
 rule "More than 3 high temperatures in two minutes for a sensor of temperature"
 @role(situation)
 @type(TemperatureSituation)
     when
-     data : Data()
-     transactions: List(size > 3) from accumulate(
-        transaction: TemperatureEvent(temperature > -3) over window:time (2m),
-        collectList(transaction)
-     )
-     then
-        SituationHelper.situationDetected(drools);
-end
-
-
-/*
-*/
-rule "More than 1 suspicious cases in the two minutes and we warn the owner"
-    when
-      d: Data()
-      temperatureSituation: List(size > 3) from accumulate (
-        Activation($sit: situation, $sit isA TemperatureSituation.class, ((TemperatureSituation) $sit).data == d ) over window:time (2m);
-        collectList($sit)
+       data : Data();
+       transactions: List(size > 3) from accumulate(
+          transaction: TemperatureEvent(data.getTemperature() > -3) over window:time (2m),
+          collectList(transaction)
        )
      then
-       System.out.println("Temperatura elevada : " + d.getTemperature() + " Cº!");
+       SituationHelper.situationDetected(drools);
 end
 
+/*
+Se houver mais que 3 situações de elevação de temperatura, em uma janela de tempo de 2 minutos, 
+uma ação de notificação de elevação de temperatura é disparada!
 
-/*rule "More than 1 transaction of 200 dollars in an hour from the same client"
-@role(situation)
-@type(TemperatureSituation)
-    when
-      data : Data()
-      transactions: List(size > 1) from accumulate(
-        transaction: TempRiseActivity(temperature == data.getTemperature(), sensor_id == 1) over window:time (2m),
-        collectList(transaction)
-      )
-    then
-      SituationHelper.situationDetected(drools);
+## No exemplo exposto são disparados 4 situações de temperaturas acima de -3 graus. vide RuleTest.java##
+*/
+
+rule "start botox situation when have a one case suspicious"
+	when
+       temperatureSituation: List(size > 3) from accumulate (
+         Activation($sit: situation, $sit isA TemperatureSituation.class) over window:time (2m);
+         collectList($sit)
+       )
+	then
+		System.out.println("uma situação de temperatura ocorreu");
 end
-
-
-rule "More than 10 transactions in an hour from small client portal"
-@role(situation)
-@type(TemperatureSituation)
-    when
-      data : Data()
-      transactions: List(size > 10) from accumulate(
-        transaction: TempRiseActivity(temperature == data.getTemperature()) over window:time (2m) from entry-point "low temperature",
-        collectList(transaction)
-      )
-    then
-      SituationHelper.situationDetected(drools);
-end
-
-
-rule "More than 100 transactions in an hour from big client portal"
-@role(situation)
-@type(TemperatureSituation)
-    when
-      data : Data()
-      transactions: List(size > 100) from accumulate(
-        transaction: TempRiseActivity(temperature == data.getTemperature()) over window:time (2m) from entry-point "high temperature",
-        collectList(transaction)
-      )
-    then
-      SituationHelper.situationDetected(drools);
-end
-
-rule "More than 3 suspicious cases in the day and we warn the owner"
-    when
-      d: Data()
-      temperatureSituation: List(size > 3) from accumulate (
-        Activation($sit: situation, $sit isA TemperatureSituation.class, ((TemperatureSituation) $sit).data == d ) over window:time (2m);
-        collectList($sit)
-      )
-     then
-       System.out.println("WARNING! " + d.getTemperature());
-end*/
-
-/*rule "StartProccess"
-    when
-    	$sit: TemperatureSituation()
-    then
-        //Dispara processo.
-end
-
-declare YellowFever extends Situation
-	person: Person @part
-	fevers: List @part
-end
-
-rule "StartProccess"
-@role(situation)
-@type(YellowFever)
-    when
-      person: Person() 	
-      fevers: List(size > 3) from accumulate (
-        Activation($sit: situation, $sit isA Fever.class, ((Fever) $sit).person == person ) over window:time (1d);
-        collectList($sit)
-      )
-    then
-        //Dispara processo.
-end*/

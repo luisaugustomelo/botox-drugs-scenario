@@ -51,6 +51,7 @@ public class RuleTest {
 
     @Test
     public void test() {
+    	
         KieServices kieServices = KieServices.Factory.get();
 
         KieContainer kContainer = kieServices.getKieClasspathContainer();
@@ -84,7 +85,7 @@ public class RuleTest {
 
         LOG.info("Now running data");
 
-        Data temp1 = new Data(-3.2, 1);
+        Data temp1 = new Data(-5, 1);
         session.insert(temp1);
         Data temp2 = new Data(-2.5, 1);
         session.insert(temp2);
@@ -101,37 +102,10 @@ public class RuleTest {
         session.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
         session.insert(new TemperatureEvent(temp5.getTemperature(), temp5.getSensorId()));
         
-        /*session.insert(temp1);
-        for (int i = 0; i < 15; i++) {
-            session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
-        }
-
-        Data temp2 = new Data(-8, 1);
-        session.insert(temp2);
-        for (int i = 0; i < 2; i++) {
-//            session.insert(new TransactionEvent(client2.getId(), 2001.0));
-            session.insert(new TemperatureEvent(temp2.getTemperature(), temp2.getSensorId()));
-        }
-
-        Data temp3 = new Data(-4, 1);
-        session.insert(temp3);
-
-        EntryPoint lowTemp = session.getEntryPoint("low temperature");
-        for (int i = 0; i < 11; i++) {
-            //smallClients.insert(new TransactionEvent(client3.getId(), 20.0));
-        	lowTemp.insert(new TemperatureEvent(temp3.getTemperature(), temp3.getSensorId()));
-        }
-        
-        Data temp4 = new Data(1, 1);
-        session.insert(temp4);
-
-        EntryPoint highTemp = session.getEntryPoint("high temperature");
-        for (int i = 0; i < 101; i++) {
-//            bigClients.insert(new TransactionEvent(client4.getId(), 20.0));
-        	highTemp.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
-        }*/
 
         LOG.info("Final checks");
+        
+        
 
         while(true);
 

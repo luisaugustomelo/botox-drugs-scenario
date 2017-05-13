@@ -1,73 +1,26 @@
-01:26:03,073 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@6db66836
-01:26:03,074 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3dd69f5a
-01:26:03,075 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3aa3193a
-01:26:03,076 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ee4730
-01:26:03,076 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@59a67c3a
-01:26:03,082 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
-01:26:03,083 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@532721fd
-01:26:03,084 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@410954b
-01:26:03,086 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@7fb9f71f
-01:26:03,086 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3b366632
-01:26:03,087  INFO RuleTest:134 - Final checks
-01:27:09,438  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-01:27:09,443 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:27:09,723  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:27:09,733  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
-01:27:09,735 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-01:27:09,741  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
-01:27:09,742  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-01:27:09,742 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:27:09,754  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:27:09,754  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:27:09,754  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-01:27:09,761 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-01:27:09,761  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-01:27:12,066  INFO RuleTest:62 - Creating kieBase
-01:27:12,130 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-01:27:12,248  INFO RuleTest:68 - There should be rules: 
-01:27:12,250  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
-01:27:12,250  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 1 suspicious cases in the two minutes and we warn the owner
-01:27:12,250  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-01:27:12,250  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-01:27:12,251  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-01:27:12,251  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-01:27:12,251  INFO RuleTest:75 - Creating kieSession
-01:27:12,306  INFO RuleTest:85 - Now running data
-01:27:12,311 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@6db66836
-01:27:12,311 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3dd69f5a
-01:27:12,312 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3aa3193a
-01:27:12,312 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@1ee4730
-01:27:12,313 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@59a67c3a
-01:27:12,319 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@724bade8
-01:27:12,330 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@532721fd
-01:27:12,330 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@410954b
-01:27:12,331 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@7fb9f71f
-01:27:12,332 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3b366632
-01:27:12,332  INFO RuleTest:134 - Final checks
-01:30:43,529  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-01:30:43,533 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:30:43,750  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:30:43,758  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
-01:30:43,760 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-01:30:43,764  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
-01:30:43,765  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-01:30:43,765 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:30:43,772  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:30:43,772  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:30:43,773  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-01:30:43,777 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-01:30:43,778  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-01:30:45,660  INFO RuleTest:62 - Creating kieBase
-01:30:45,712 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-01:30:45,806  INFO RuleTest:68 - There should be rules: 
-01:30:45,808  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
-01:30:45,808  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 1 suspicious cases in the two minutes and we warn the owner
-01:30:45,809  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-01:30:45,809  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-01:30:45,809  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-01:30:45,809  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-01:30:45,809  INFO RuleTest:75 - Creating kieSession
-01:30:45,895 DEBUG Reflections:186 - going to scan these urls:
+15:18:38,888 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+15:18:39,144  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+15:18:39,154  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+15:18:39,156 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+15:18:39,161  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+15:18:39,161  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+15:18:39,162 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:18:39,175  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:18:39,175  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:18:39,175  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+15:18:39,182 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+15:18:39,182  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+15:18:41,109  INFO RuleTest:67 - Creating kieBase
+15:18:41,170 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+15:18:41,278  INFO RuleTest:73 - There should be rules: 
+15:18:41,280  INFO RuleTest:76 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+15:18:41,281  INFO RuleTest:76 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
+15:18:41,281  INFO RuleTest:76 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+15:18:41,281  INFO RuleTest:76 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+15:18:41,281  INFO RuleTest:76 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+15:18:41,281  INFO RuleTest:76 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+15:18:41,282  INFO RuleTest:80 - Creating kieSession
+15:18:41,384 DEBUG Reflections:186 - going to scan these urls:
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
 file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
@@ -111,94 +64,88 @@ file:/C:/Eclipse/configuration/org.eclipse.osgi/215/0/.cp/
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
 file:/C:/Eclipse/configuration/org.eclipse.osgi/214/0/.cp/
 file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
-01:30:46,006  INFO Reflections:229 - Reflections took 110 ms to scan 43 urls, producing 0 keys and 0 values 
-01:30:46,024 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,521  INFO Reflections:229 - Reflections took 136 ms to scan 43 urls, producing 0 keys and 0 values 
+15:18:41,537 DEBUG Reflections:186 - going to scan these urls:
 file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
 file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
-01:30:46,114  INFO Reflections:229 - Reflections took 90 ms to scan 2 urls, producing 5 keys and 7 values 
-01:30:46,116 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,623  INFO Reflections:229 - Reflections took 84 ms to scan 2 urls, producing 5 keys and 5 values 
+15:18:41,624 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:30:46,119  INFO Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 4 keys and 4 values 
-01:30:46,120 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,632  INFO Reflections:229 - Reflections took 7 ms to scan 1 urls, producing 4 keys and 4 values 
+15:18:41,633 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:30:46,127 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
-01:30:46,127 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
-01:30:46,129  INFO Reflections:229 - Reflections took 9 ms to scan 1 urls, producing 26 keys and 27 values 
-01:30:46,130 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,640 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
+15:18:41,640 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
+15:18:41,642  INFO Reflections:229 - Reflections took 9 ms to scan 1 urls, producing 26 keys and 27 values 
+15:18:41,643 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:30:46,132  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 3 keys and 4 values 
-01:30:46,133 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,644  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 3 keys and 4 values 
+15:18:41,645 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:30:46,135  INFO Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 5 keys and 5 values 
-01:30:46,136 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,648  INFO Reflections:229 - Reflections took 3 ms to scan 1 urls, producing 5 keys and 5 values 
+15:18:41,649 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:30:46,137  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 3 values 
-01:30:46,143  INFO RuleTest:85 - Now running data
-01:30:46,145 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5987e932
-01:30:46,145 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@54f5f647
-01:30:46,146 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@6979efad
-01:30:46,146 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5a6d5a8f
-01:30:46,150 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4a67318f
-01:30:46,156 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@17f9344b
-01:30:46,156 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4c432866
-01:30:46,161 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@12365c88
-01:30:46,161 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6105f8a3
-01:30:46,162 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2237bada
-01:30:46,162  INFO RuleTest:134 - Final checks
-01:30:46,261 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@5987e932, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,345 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:30:46.
-01:30:46,345 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@1861872e
-01:30:46,345 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@634b5e34
-01:30:46,345 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5987e932, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada] )
-01:30:46,346 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@5987e932, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,402 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,403 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:30:46.
-01:30:46,403 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@57af1db
-01:30:46,403 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@30d9362a
-01:30:46,403 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada] )
-01:30:46,404 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,405 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,406 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:30:46.
-01:30:46,406 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@1a9e1696
-01:30:46,406 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@52c84848
-01:30:46,406 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada] )
-01:30:46,406 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,407 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@6979efad, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,407 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:30:46.
-01:30:46,407 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@194d463c
-01:30:46,407 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@56efde12
-01:30:46,408 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@6979efad, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada] )
-01:30:46,408 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@6979efad, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,409 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@54f5f647, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:30:46,409 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:30:46.
-01:30:46,409 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@5cb17151
-01:30:46,410 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@515c7236
-01:30:46,410 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@54f5f647, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada] )
-01:30:46,410 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -136940265	CAST: {data=co.pextra.botox.Data@54f5f647, transactions=[co.pextra.botox.TemperatureEvent@4c432866, co.pextra.botox.TemperatureEvent@12365c88, co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada]}
-01:33:02,228  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-01:33:02,232 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:33:02,462  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:33:02,470  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
-01:33:02,472 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-01:33:02,476  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
-01:33:02,476  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-01:33:02,477 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:02,485  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:02,485  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:02,485  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-01:33:02,490 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-01:33:02,490  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-01:33:04,409  INFO RuleTest:62 - Creating kieBase
-01:33:04,462 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-01:33:04,564  INFO RuleTest:68 - There should be rules: 
-01:33:04,566  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
-01:33:04,566  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 1 suspicious cases in the two minutes and we warn the owner
-01:33:04,566  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-01:33:04,566  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-01:33:04,567  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-01:33:04,567  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-01:33:04,567  INFO RuleTest:75 - Creating kieSession
-01:33:04,651 DEBUG Reflections:186 - going to scan these urls:
+15:18:41,651  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 3 values 
+15:18:41,656  INFO RuleTest:90 - Now running data
+15:18:41,658 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@71b1a49c
+15:18:41,658 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3b809711
+15:18:41,658 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3b0f7d9d
+15:18:41,659 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@236ab296
+15:18:41,659 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5c84624f
+15:18:41,664 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@232024b9
+15:18:41,665 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3e1162e7
+15:18:41,665 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@79c3f01f
+15:18:41,665 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6c2f1700
+15:18:41,666 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@350b3a17
+15:18:41,666  INFO RuleTest:139 - Final checks
+15:18:41,793 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,902 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:18:41.
+15:18:41,903 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@40f4af11
+15:18:41,903 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@7ad4cfa
+15:18:41,904 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:18:41,905 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,982 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,983 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:18:41.
+15:18:41,983 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@375b8a36
+15:18:41,983 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@43ad3ba0
+15:18:41,984 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:18:41,984 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,985 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,986 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:18:41.
+15:18:41,987 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@73ff7941
+15:18:41,987 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2282ad96
+15:18:41,987 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:18:41,987 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,988 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:18:41,990 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:18:41.
+15:18:41,990 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@6dbb5047
+15:18:41,990 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@1ffe3429
+15:18:41,991 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:18:41,991 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1430540529	CAST: {data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:40,582  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+15:20:40,587 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+15:20:40,822  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+15:20:40,831  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+15:20:40,833 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+15:20:40,837  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+15:20:40,837  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+15:20:40,837 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:20:40,845  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:20:40,846  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+15:20:40,846  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+15:20:40,851 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+15:20:40,852  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+15:20:42,879  INFO RuleTest:63 - Creating kieBase
+15:20:42,938 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+15:20:43,038  INFO RuleTest:69 - There should be rules: 
+15:20:43,040  INFO RuleTest:72 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+15:20:43,040  INFO RuleTest:72 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
+15:20:43,040  INFO RuleTest:72 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+15:20:43,040  INFO RuleTest:72 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+15:20:43,041  INFO RuleTest:72 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+15:20:43,041  INFO RuleTest:72 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+15:20:43,041  INFO RuleTest:76 - Creating kieSession
+15:20:43,149 DEBUG Reflections:186 - going to scan these urls:
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
 file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
@@ -242,198 +189,61 @@ file:/C:/Eclipse/configuration/org.eclipse.osgi/215/0/.cp/
 file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
 file:/C:/Eclipse/configuration/org.eclipse.osgi/214/0/.cp/
 file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
-01:33:04,756  INFO Reflections:229 - Reflections took 104 ms to scan 43 urls, producing 0 keys and 0 values 
-01:33:04,780 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,264  INFO Reflections:229 - Reflections took 114 ms to scan 43 urls, producing 0 keys and 0 values 
+15:20:43,284 DEBUG Reflections:186 - going to scan these urls:
 file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
 file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
-01:33:04,871  INFO Reflections:229 - Reflections took 89 ms to scan 2 urls, producing 5 keys and 7 values 
-01:33:04,872 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,362  INFO Reflections:229 - Reflections took 78 ms to scan 2 urls, producing 5 keys and 5 values 
+15:20:43,363 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:04,877  INFO Reflections:229 - Reflections took 3 ms to scan 1 urls, producing 4 keys and 4 values 
-01:33:04,878 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,372  INFO Reflections:229 - Reflections took 9 ms to scan 1 urls, producing 4 keys and 4 values 
+15:20:43,373 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:04,886 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
-01:33:04,887 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
-01:33:04,889  INFO Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 26 keys and 27 values 
-01:33:04,890 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,380 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
+15:20:43,380 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
+15:20:43,382  INFO Reflections:229 - Reflections took 8 ms to scan 1 urls, producing 26 keys and 27 values 
+15:20:43,383 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:33:04,892  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 3 keys and 4 values 
-01:33:04,893 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,384  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 3 keys and 4 values 
+15:20:43,385 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:04,894  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 5 keys and 5 values 
-01:33:04,895 DEBUG Reflections:186 - going to scan these urls:
+15:20:43,388  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 5 keys and 5 values 
+15:20:43,389 DEBUG Reflections:186 - going to scan these urls:
 jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:33:04,896  INFO Reflections:229 - Reflections took 0 ms to scan 1 urls, producing 2 keys and 3 values 
-01:33:04,902  INFO RuleTest:85 - Now running data
-01:33:04,903 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5bbbdd4b
-01:33:04,904 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5a6d5a8f
-01:33:04,904 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4a67318f
-01:33:04,904 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@315ba14a
-01:33:04,904 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@17f9344b
-01:33:04,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@54e81b21
-01:33:04,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6105f8a3
-01:33:04,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2237bada
-01:33:04,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@77e2a6e2
-01:33:04,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5710768a
-01:33:04,912  INFO RuleTest:134 - Final checks
-01:33:05,035 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,114 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:05.
-01:33:05,114 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@5bf69990
-01:33:05,114 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@19648cc7
-01:33:05,114 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:05,116 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,179 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,180 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:05.
-01:33:05,181 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@309f2c02
-01:33:05,181 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@10596510
-01:33:05,181 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:05,181 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,183 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,183 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:05.
-01:33:05,184 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2269972f
-01:33:05,184 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@51f25ecd
-01:33:05,184 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:05,184 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,185 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,185 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:05.
-01:33:05,185 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@56651c32
-01:33:05,185 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@20d1124a
-01:33:05,186 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:05,186 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,187 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:05,187 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:05.
-01:33:05,187 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@73ce09d
-01:33:05,188 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@632e4ebf
-01:33:05,188 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:05,188 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1524712189	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:40,888  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-01:33:40,892 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:33:41,192  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
-01:33:41,200  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
-01:33:41,202 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-01:33:41,207  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
-01:33:41,207  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-01:33:41,208 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:41,218  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:41,218  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-01:33:41,218  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-01:33:41,223 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-01:33:41,224  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-01:33:43,539  INFO RuleTest:62 - Creating kieBase
-01:33:43,604 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-01:33:43,711  INFO RuleTest:68 - There should be rules: 
-01:33:43,715  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
-01:33:43,715  INFO RuleTest:71 - kp [Package name=co.pextra.botox] rule More than 1 suspicious cases in the two minutes and we warn the owner
-01:33:43,715  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-01:33:43,715  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-01:33:43,716  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-01:33:43,716  INFO RuleTest:71 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-01:33:43,716  INFO RuleTest:75 - Creating kieSession
-01:33:43,819 DEBUG Reflections:186 - going to scan these urls:
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
-file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
-file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
-file:/C:/Users/luisr/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
-file:/C:/Users/luisr/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar
-file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-file:/C:/Users/luisr/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
-file:/C:/Users/luisr/.m2/repository/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar
-file:/C:/Users/luisr/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar
-file:/C:/Users/luisr/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/nashorn.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunec.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar
-file:/C:/Users/luisr/.m2/repository/org/drools/drools-compiler/6.5.0.Final/drools-compiler-6.5.0.Final.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar
-file:/C:/Users/luisr/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar
-file:/C:/Users/luisr/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar
-file:/C:/Users/luisr/.m2/repository/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
-file:/C:/Users/luisr/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
-file:/C:/Users/luisr/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dns_sd.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dnsns.jar
-file:/C:/Users/luisr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
-file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
-file:/C:/Users/luisr/.m2/repository/org/kie/kie-api/6.5.0.Final/kie-api-6.5.0.Final.jar
-file:/C:/Users/luisr/.m2/repository/org/kie/kie-internal/6.5.0.Final/kie-internal-6.5.0.Final.jar
-file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar
-file:/C:/Users/luisr/.m2/repository/org/mvel/mvel2/2.2.8.Final/mvel2-2.2.8.Final.jar
-file:/C:/Users/luisr/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar
-file:/C:/Users/luisr/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
-file:/C:/Users/luisr/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar
-file:/C:/Users/luisr/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
-file:/C:/Users/luisr/.m2/repository/junit/junit/4.12/junit-4.12.jar
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/localedata.jar
-file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar
-file:/C:/Eclipse/configuration/org.eclipse.osgi/215/0/.cp/
-file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
-file:/C:/Eclipse/configuration/org.eclipse.osgi/214/0/.cp/
-file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
-01:33:43,968  INFO Reflections:229 - Reflections took 147 ms to scan 43 urls, producing 0 keys and 0 values 
-01:33:43,986 DEBUG Reflections:186 - going to scan these urls:
-file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
-file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
-01:33:44,069  INFO Reflections:229 - Reflections took 81 ms to scan 2 urls, producing 5 keys and 7 values 
-01:33:44,071 DEBUG Reflections:186 - going to scan these urls:
-jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:44,074  INFO Reflections:229 - Reflections took 3 ms to scan 1 urls, producing 4 keys and 4 values 
-01:33:44,075 DEBUG Reflections:186 - going to scan these urls:
-jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:44,083 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
-01:33:44,084 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
-01:33:44,085  INFO Reflections:229 - Reflections took 10 ms to scan 1 urls, producing 26 keys and 27 values 
-01:33:44,086 DEBUG Reflections:186 - going to scan these urls:
-jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:33:44,088  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 3 keys and 4 values 
-01:33:44,089 DEBUG Reflections:186 - going to scan these urls:
-jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
-01:33:44,091  INFO Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 5 keys and 5 values 
-01:33:44,092 DEBUG Reflections:186 - going to scan these urls:
-jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
-01:33:44,093  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 3 values 
-01:33:44,099  INFO RuleTest:85 - Now running data
-01:33:44,101 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5bbbdd4b
-01:33:44,101 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5a6d5a8f
-01:33:44,101 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4a67318f
-01:33:44,101 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@315ba14a
-01:33:44,102 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@17f9344b
-01:33:44,108 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@54e81b21
-01:33:44,109 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6105f8a3
-01:33:44,109 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2237bada
-01:33:44,109 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@77e2a6e2
-01:33:44,110 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5710768a
-01:33:44,110  INFO RuleTest:134 - Final checks
-01:33:44,206 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,299 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:44.
-01:33:44,300 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@54a4e5b0
-01:33:44,300 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@4241be71
-01:33:44,300 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:44,302 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@5bbbdd4b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,369 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,370 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:44.
-01:33:44,370 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@48fb7c07
-01:33:44,371 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@33ade9c4
-01:33:44,371 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:44,371 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@17f9344b, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,373 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,373 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:44.
-01:33:44,374 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@6dec9371
-01:33:44,374 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@668832f9
-01:33:44,374 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:44,374 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@315ba14a, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,375 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,375 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:44.
-01:33:44,376 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@31758415
-01:33:44,376 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@73ab8eaf
-01:33:44,376 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:44,376 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@4a67318f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,377 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
-01:33:44,378 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 01:33:44.
-01:33:44,378 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@79a5a55
-01:33:44,378 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@7cc0f98c
-01:33:44,380 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a] )
-01:33:44,380 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 373312119	CAST: {data=co.pextra.botox.Data@5a6d5a8f, transactions=[co.pextra.botox.TemperatureEvent@6105f8a3, co.pextra.botox.TemperatureEvent@2237bada, co.pextra.botox.TemperatureEvent@77e2a6e2, co.pextra.botox.TemperatureEvent@5710768a]}
+15:20:43,390  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 3 values 
+15:20:43,395  INFO RuleTest:86 - Now running data
+15:20:43,396 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@71b1a49c
+15:20:43,397 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3b809711
+15:20:43,397 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@3b0f7d9d
+15:20:43,397 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@236ab296
+15:20:43,400 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@5c84624f
+15:20:43,406 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@232024b9
+15:20:43,406 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3e1162e7
+15:20:43,406 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@79c3f01f
+15:20:43,407 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6c2f1700
+15:20:43,408 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@350b3a17
+15:20:43,408  INFO RuleTest:106 - Final checks
+15:20:43,503 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,603 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:20:43.
+15:20:43,604 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@7b985f71
+15:20:43,604 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@3e34182f
+15:20:43,605 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:20:43,607 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@5c84624f, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,681 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,682 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:20:43.
+15:20:43,683 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@3cb19f8b
+15:20:43,683 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2dbb9483
+15:20:43,683 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:20:43,684 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@236ab296, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,686 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,687 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:20:43.
+15:20:43,687 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@44b54522
+15:20:43,687 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2a3fea93
+15:20:43,687 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:20:43,687 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@3b0f7d9d, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,688 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
+15:20:43,690 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 13 15:20:43.
+15:20:43,691 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2929b332
+15:20:43,691 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2cc2c88a
+15:20:43,691 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17] )
+15:20:43,691 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 329108527	CAST: {data=co.pextra.botox.Data@3b809711, transactions=[co.pextra.botox.TemperatureEvent@232024b9, co.pextra.botox.TemperatureEvent@3e1162e7, co.pextra.botox.TemperatureEvent@79c3f01f, co.pextra.botox.TemperatureEvent@6c2f1700, co.pextra.botox.TemperatureEvent@350b3a17]}
