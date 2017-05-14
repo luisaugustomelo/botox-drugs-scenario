@@ -25,6 +25,14 @@ package co.pextra.botox;
 import br.ufes.inf.lprm.scene.SceneApplication;
 import br.ufes.inf.lprm.scene.base.listeners.SCENESessionListener;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
 //import org.drools.core.time.SessionPseudoClock;
 import org.junit.Test;
 import org.kie.api.KieBase;
@@ -46,11 +54,11 @@ import org.slf4j.LoggerFactory;
 
 //import co.pextra.botox.*;
 
-public class RuleTest {
+public class RuleTest<T> {
     static final Logger LOG = LoggerFactory.getLogger(RuleTest.class);
 
     @Test
-    public void test() {
+    public void test() throws InterruptedException, ExecutionException {
     	
         KieServices kieServices = KieServices.Factory.get();
 
@@ -106,14 +114,34 @@ public class RuleTest {
 
         LOG.info("Final checks");
         
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Future<String> future = executor.submit(new Task());
         
+        //Deixa a thread principal rodando por 30 segundos, após esse tempo, mata ela!
+        try {
+            System.out.println("Started..");
+            System.out.println(future.get(30, TimeUnit.SECONDS));
+            System.out.println("Finished!");
+        } catch (TimeoutException e) {
+            future.cancel(true);
+            System.out.println("Terminated!");
+        }
 
-        while(true);
+        executor.shutdownNow();
 
 //        assertEquals("Size of object in Working Memory is 3", 3, session.getObjects().size());
 //        assertTrue("contains red", check.contains("red"));
 //        assertTrue("contains green", check.contains("green"));
 //        assertTrue("contains blue", check.contains("blue"));
 
+    }
+}
+
+class Task implements Callable<String> {
+    @Override
+    public String call() throws Exception {
+    	while (!Thread.interrupted()) {
+    	}
+		return "Ready";
     }
 }

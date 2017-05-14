@@ -629,3 +629,225 @@ jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/s
 16:00:43,888 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@59e75d28
 16:00:43,889 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@f3fcd59, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b] )
 16:00:43,889 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1112461582	CAST: {data=co.pextra.botox.Data@f3fcd59, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:04,405  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+01:07:04,413 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+01:07:04,962  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/workspace/botox-drugs-scenario/target/classes
+01:07:04,982  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\workspace\botox-drugs-scenario\pom.xml
+01:07:04,986 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+01:07:04,992  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\workspace\botox-drugs-scenario\target\classes]
+01:07:04,993  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+01:07:04,997 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:07:05,009  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:07:05,011  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+01:07:05,012  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+01:07:05,018 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+01:07:05,019  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+01:07:08,019 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,020 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/Nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,021 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/js with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,029 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JS with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,029 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JavaScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,030 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/javascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,030 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ECMAScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,030 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ecmascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@3b809711
+01:07:08,617  INFO RuleTest:72 - Creating kieBase
+01:07:08,715 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+01:07:08,831  INFO RuleTest:78 - There should be rules: 
+01:07:08,831  INFO RuleTest:81 - kp [Package name=co.pextra.botox] rule More than 3 high temperatures in two minutes for a sensor of temperature
+01:07:08,832  INFO RuleTest:81 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
+01:07:08,832  INFO RuleTest:81 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+01:07:08,832  INFO RuleTest:81 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+01:07:08,832  INFO RuleTest:81 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+01:07:08,832  INFO RuleTest:81 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+01:07:08,833  INFO RuleTest:85 - Creating kieSession
+01:07:08,958 DEBUG Reflections:186 - going to scan these urls:
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-workitems/6.5.0.Final/jbpm-human-task-workitems-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-persistence-jpa/6.5.0.Final/drools-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-jpa/6.5.0.Final/jbpm-human-task-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunec.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar
+file:/C:/Users/luisr/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-core/6.5.0.Final/jbpm-human-task-core-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-persistence-jpa/6.5.0.Final/jbpm-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow-builder/6.5.0.Final/jbpm-flow-builder-6.5.0.Final.jar
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
+file:/C:/Users/luisr/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-bpmn2/6.5.0.Final/jbpm-bpmn2-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-internal/6.5.0.Final/kie-internal-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-query-jpa/6.5.0.Final/jbpm-query-jpa-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar
+file:/C:/Users/luisr/.m2/repository/org/mvel/mvel2/2.2.8.Final/mvel2-2.2.8.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-audit/6.5.0.Final/jbpm-audit-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar
+file:/C:/Users/luisr/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+file:/C:/Users/luisr/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar
+file:/C:/Users/luisr/.m2/repository/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow/6.5.0.Final/jbpm-flow-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
+file:/C:/Eclipse/configuration/org.eclipse.osgi/214/0/.cp/
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.9/jackson-mapper-asl-1.9.9.jar
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar
+file:/C:/Users/luisr/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar
+file:/C:/Users/luisr/.m2/repository/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar
+file:/C:/Users/luisr/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/nashorn.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-compiler/6.5.0.Final/drools-compiler-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/javax/mail/mail/1.4.5/mail-1.4.5.jar
+file:/C:/Users/luisr/.m2/repository/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-runtime-manager/6.5.0.Final/jbpm-runtime-manager-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-audit/6.5.0.Final/jbpm-human-task-audit-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dns_sd.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dnsns.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final/jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-api/6.5.0.Final/kie-api-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar
+file:/C:/Users/luisr/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+file:/C:/Users/luisr/.m2/repository/junit/junit/4.12/junit-4.12.jar
+file:/C:/Users/luisr/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/localedata.jar
+file:/C:/Eclipse/configuration/org.eclipse.osgi/215/0/.cp/
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+01:07:09,228  INFO Reflections:229 - Reflections took 267 ms to scan 65 urls, producing 0 keys and 0 values 
+01:07:09,248 DEBUG Reflections:186 - going to scan these urls:
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
+01:07:09,290  INFO Reflections:229 - Reflections took 41 ms to scan 2 urls, producing 6 keys and 6 values 
+01:07:09,291 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+01:07:09,297  INFO Reflections:229 - Reflections took 5 ms to scan 1 urls, producing 4 keys and 4 values 
+01:07:09,298 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+01:07:09,306 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
+01:07:09,307 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
+01:07:09,315  INFO Reflections:229 - Reflections took 15 ms to scan 1 urls, producing 26 keys and 27 values 
+01:07:09,325 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
+01:07:09,329  INFO Reflections:229 - Reflections took 4 ms to scan 1 urls, producing 3 keys and 4 values 
+01:07:09,331 DEBUG Reflections:186 - going to scan these urls:
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-workitems/6.5.0.Final/jbpm-human-task-workitems-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-persistence-jpa/6.5.0.Final/drools-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-jpa/6.5.0.Final/jbpm-human-task-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunec.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar
+file:/C:/Users/luisr/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-core/6.5.0.Final/jbpm-human-task-core-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-persistence-jpa/6.5.0.Final/jbpm-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow-builder/6.5.0.Final/jbpm-flow-builder-6.5.0.Final.jar
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/classes/
+file:/C:/Users/luisr/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-bpmn2/6.5.0.Final/jbpm-bpmn2-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-internal/6.5.0.Final/kie-internal-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-query-jpa/6.5.0.Final/jbpm-query-jpa-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar
+file:/C:/Users/luisr/.m2/repository/org/mvel/mvel2/2.2.8.Final/mvel2-2.2.8.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-audit/6.5.0.Final/jbpm-audit-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar
+file:/C:/Users/luisr/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+file:/C:/Users/luisr/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar
+file:/C:/Users/luisr/.m2/repository/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow/6.5.0.Final/jbpm-flow-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
+file:/C:/Eclipse/configuration/org.eclipse.osgi/214/0/.cp/
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.9/jackson-mapper-asl-1.9.9.jar
+file:/C:/Users/luisr/workspace/botox-drugs-scenario/target/test-classes/
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar
+file:/C:/Users/luisr/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar
+file:/C:/Users/luisr/.m2/repository/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar
+file:/C:/Users/luisr/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/nashorn.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-compiler/6.5.0.Final/drools-compiler-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/javax/mail/mail/1.4.5/mail-1.4.5.jar
+file:/C:/Users/luisr/.m2/repository/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-runtime-manager/6.5.0.Final/jbpm-runtime-manager-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-audit/6.5.0.Final/jbpm-human-task-audit-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dns_sd.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dnsns.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final/jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-api/6.5.0.Final/kie-api-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar
+file:/C:/Users/luisr/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+file:/C:/Users/luisr/.m2/repository/junit/junit/4.12/junit-4.12.jar
+file:/C:/Users/luisr/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/localedata.jar
+file:/C:/Eclipse/configuration/org.eclipse.osgi/215/0/.cp/
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+01:07:09,453  INFO Reflections:229 - Reflections took 121 ms to scan 65 urls, producing 0 keys and 0 values 
+01:07:09,455 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+01:07:09,457  INFO Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 5 keys and 5 values 
+01:07:09,458 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
+01:07:09,459  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 2 keys and 3 values 
+01:07:09,466  INFO RuleTest:95 - Now running data
+01:07:09,468 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@4441d567
+01:07:09,468 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@f3fcd59
+01:07:09,468 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@2b56f5f8
+01:07:09,469 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@79d743e6
+01:07:09,469 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Data@776802b0
+01:07:09,473 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1aa99005
+01:07:09,474 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@bc4d5e1
+01:07:09,474 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3c6aa04a
+01:07:09,474 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2257fadf
+01:07:09,475 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@7144655b
+01:07:09,475  INFO RuleTest:115 - Final checks
+01:07:09,616 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@776802b0, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,719 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 14 01:07:09.
+01:07:09,720 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@31ca831e
+01:07:09,720 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@be29fb1
+01:07:09,721 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@776802b0, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b] )
+01:07:09,722 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@776802b0, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,786 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@79d743e6, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,787 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 14 01:07:09.
+01:07:09,787 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@46e809dd
+01:07:09,787 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@7f654a43
+01:07:09,787 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@79d743e6, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b] )
+01:07:09,788 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@79d743e6, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,789 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@2b56f5f8, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,789 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 14 01:07:09.
+01:07:09,790 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@769790d9
+01:07:09,790 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@510b250f
+01:07:09,790 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@2b56f5f8, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b] )
+01:07:09,790 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@2b56f5f8, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,791 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@f3fcd59, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
+01:07:09,791 DEBUG SCENELogger:19 - 	Activation timestamp: 2017 05 14 01:07:09.
+01:07:09,792 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@28fda14e
+01:07:09,792 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@581c6c66
+01:07:09,792 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( data=co.pextra.botox.Data@f3fcd59, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b] )
+01:07:09,792 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 1277566660	CAST: {data=co.pextra.botox.Data@f3fcd59, transactions=[co.pextra.botox.TemperatureEvent@1aa99005, co.pextra.botox.TemperatureEvent@bc4d5e1, co.pextra.botox.TemperatureEvent@3c6aa04a, co.pextra.botox.TemperatureEvent@2257fadf, co.pextra.botox.TemperatureEvent@7144655b]}
