@@ -94,6 +94,7 @@ public class RuleTest<T> {
 
         LOG.info("Now running data");
 
+        //Criar loops para simular dados em 5 sensores diferentes! São necessários 5 sensores.
         Data temp1 = new Data(-5, 1);
         session.insert(temp1);
         Data temp2 = new Data(-2.5, 1);
@@ -105,6 +106,7 @@ public class RuleTest<T> {
         Data temp5 = new Data(2, 1);
         session.insert(temp5);
         
+        //TemperatureEvent deveria ser uma lista de temperaturas associadas a um determinado sensor
         session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
         session.insert(new TemperatureEvent(temp2.getTemperature(), temp2.getSensorId()));
         session.insert(new TemperatureEvent(temp3.getTemperature(), temp3.getSensorId()));
@@ -117,7 +119,7 @@ public class RuleTest<T> {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         Future<String> future = executor.submit(new Task());
         
-        //Deixa a thread principal rodando por 30 segundos, após esse tempo, mata ela!
+        //Deixa a thread principal rodando por 30 segundos, após esse tempo, ela morre!
         try {
             System.out.println("Started..");
             System.out.println(future.get(30, TimeUnit.SECONDS));
