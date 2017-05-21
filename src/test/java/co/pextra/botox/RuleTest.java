@@ -24,6 +24,7 @@ package co.pextra.botox;
 
 import br.ufes.inf.lprm.scene.SceneApplication;
 import br.ufes.inf.lprm.scene.base.listeners.SCENESessionListener;
+import co.pextra.botox.TemperatureEvent;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -95,23 +96,44 @@ public class RuleTest<T> {
         LOG.info("Now running data");
 
         //Criar loops para simular dados em 5 sensores diferentes! São necessários 5 sensores.
-        Data temp1 = new Data(-5, 1);
-        session.insert(temp1);
-        Data temp2 = new Data(-2.5, 1);
-        session.insert(temp2);
-        Data temp3 = new Data(-2.2, 1);
-        session.insert(temp3);
-        Data temp4 = new Data(1, 1);
-        session.insert(temp4);
-        Data temp5 = new Data(2, 1);
-        session.insert(temp5);
+        Sensor sensor1 = new Sensor(1, "Geladeira 1");
+        session.insert(sensor1);
+        Sensor sensor2 = new Sensor(2, "Geladeira 1");
+        session.insert(sensor2);
+        Sensor sensor3 = new Sensor(3, "Geladeira 1");
+        session.insert(sensor3);
+        Sensor sensor4 = new Sensor(4, "Geladeira 1");
+        session.insert(sensor4);
+        Sensor sensor5 = new Sensor(5, "Geladeira 1");
+        session.insert(sensor5);
         
-        //TemperatureEvent deveria ser uma lista de temperaturas associadas a um determinado sensor
-        session.insert(new TemperatureEvent(temp1.getTemperature(), temp1.getSensorId()));
-        session.insert(new TemperatureEvent(temp2.getTemperature(), temp2.getSensorId()));
-        session.insert(new TemperatureEvent(temp3.getTemperature(), temp3.getSensorId()));
-        session.insert(new TemperatureEvent(temp4.getTemperature(), temp4.getSensorId()));
-        session.insert(new TemperatureEvent(temp5.getTemperature(), temp5.getSensorId()));
+      //TemperatureEvent deveria ser uma lista de temperaturas associadas a um determinado sensor
+        for (double temp = -6; temp <= -8;) {
+        	temp = (temp <= 5) ? temp++ : temp--;
+            session.insert(new TemperatureEvent(temp, sensor1.getSensorId()));
+        }
+        
+        for (double temp = -8; temp <= -18;) {
+        	temp = (temp <= 7) ? temp++ : temp--;
+            session.insert(new TemperatureEvent(temp, sensor2.getSensorId()));
+        }
+        
+        for (double temp = -7; temp <= -12;) {
+        	temp = (temp <= 9) ? temp++ : temp--;
+            session.insert(new TemperatureEvent(temp, sensor3.getSensorId()));
+        }
+        
+        for (double temp = -10; temp <= -5;) {
+        	temp = (temp <= 10) ? temp++ : temp--;
+            session.insert(new TemperatureEvent(temp, sensor4.getSensorId()));
+        }
+        
+        for (double temp = -15; temp <= -4;) {
+        	temp = (temp <= 3) ? temp++ : temp--;
+            session.insert(new TemperatureEvent(temp, sensor5.getSensorId()));
+        }
+        
+        
         
 
         LOG.info("Final checks");
