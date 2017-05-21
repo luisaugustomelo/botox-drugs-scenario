@@ -15,20 +15,20 @@ public class TemperatureEvent implements Serializable {
     private static final long serialVersionUID = 1L;
     private Date executionTime;
     private Double temperature;
-    private int sensor_id;
+    private int sensorId;
 
-    public TemperatureEvent(Double temperature, int sensor_id) {
+    public TemperatureEvent(Double temperature, int sensorId) {
         super();
         this.executionTime = new Date();
         this.temperature = temperature;
-        this.sensor_id = sensor_id;
+        this.sensorId = sensorId;
     }
 
-    public TemperatureEvent(Double temperature, int sensor_id, Date executionTime) {
+    public TemperatureEvent(Double temperature, int sensorId, Date executionTime) {
         super();
         this.executionTime = executionTime;
         this.temperature = temperature;
-        this.sensor_id = sensor_id;
+        this.sensorId = sensorId;
     }
 
 
@@ -49,10 +49,10 @@ public class TemperatureEvent implements Serializable {
     }
 
     public int getSensorId() {
-        return sensor_id;
+        return sensorId;
     }
 
-    public void setSensorId(int sensor_id) {
-        this.sensor_id = sensor_id;
+    public void setSensorId(int sensorId) {
+        this.sensorId = sensorId;
     }
 }

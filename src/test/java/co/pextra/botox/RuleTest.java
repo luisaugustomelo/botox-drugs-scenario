@@ -108,34 +108,47 @@ public class RuleTest<T> {
         session.insert(sensor5);
         
       //TemperatureEvent deveria ser uma lista de temperaturas associadas a um determinado sensor
-        for (double temp = -6; temp <= -8;) {
-        	temp = (temp <= 5) ? temp++ : temp--;
+        for (double i = 0, temp = -6; temp <= -8;) {
+        	if(temp >= 5)
+        		i = 1;
+
+            System.out.println("============> " + temp);
+            
+        	temp = (temp <= 5 && i == 0) ? temp++ : temp--;
             session.insert(new TemperatureEvent(temp, sensor1.getSensorId()));
         }
         
-        for (double temp = -8; temp <= -18;) {
-        	temp = (temp <= 7) ? temp++ : temp--;
+        /*for (double i = 0, temp = -8; temp <= -18;) {
+        	if(temp <= 7)
+        		i = 1;
+        	
+        	temp = (temp <= 7 && i == 0) ? temp++ : temp--;
             session.insert(new TemperatureEvent(temp, sensor2.getSensorId()));
         }
         
-        for (double temp = -7; temp <= -12;) {
-        	temp = (temp <= 9) ? temp++ : temp--;
+        for (double i = 0, temp = -7; temp <= -12;) {
+        	if(temp <= 9)
+        		i = 1;
+        	temp = (temp <= 9 && i == 0) ? temp++ : temp--;
             session.insert(new TemperatureEvent(temp, sensor3.getSensorId()));
         }
         
-        for (double temp = -10; temp <= -5;) {
-        	temp = (temp <= 10) ? temp++ : temp--;
+        for (double i = 0, temp = -10; temp <= -5;) {
+        	if(temp <= 10)
+        		i = 1;
+        	temp = (temp <= 10 && i == 0) ? temp++ : temp--;
             session.insert(new TemperatureEvent(temp, sensor4.getSensorId()));
         }
         
-        for (double temp = -15; temp <= -4;) {
-        	temp = (temp <= 3) ? temp++ : temp--;
+        for (double i = 0, temp = -15; temp <= -4;) {
+        	if(temp <= 3)
+        		i = 1;
+        	
+        	temp = (temp <= 3 && i == 0) ? temp++ : temp--;
             session.insert(new TemperatureEvent(temp, sensor5.getSensorId()));
-        }
+        }*/
         
         
-        
-
         LOG.info("Final checks");
         
         ExecutorService executor = Executors.newSingleThreadExecutor();
