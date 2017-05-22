@@ -58,6 +58,22 @@ import org.slf4j.LoggerFactory;
 public class RuleTest<T> {
     static final Logger LOG = LoggerFactory.getLogger(RuleTest.class);
 
+    public void insertTemp(Sensor s, int temp_start, int temp_end, int temp_mid, int temp_invert, KieSession session){
+    	
+    	for(int temp = temp_start, invert = 0; (temp <= temp_mid && invert == 0) || (temp >= temp_end && invert == 1); ){
+        	if(temp > temp_invert){
+        		invert = 1;
+        	}
+        	
+        	if (temp <= temp_invert && invert == 0)
+        		temp++;
+        	else
+        		temp--;
+            session.insert(new TemperatureEvent((double)temp, s.getSensorId()));
+        }
+    	
+    }
+    
     @Test
     public void test() throws InterruptedException, ExecutionException {
     	
@@ -107,47 +123,12 @@ public class RuleTest<T> {
         Sensor sensor5 = new Sensor(5, "Geladeira 1");
         session.insert(sensor5);
         
-      //TemperatureEvent deveria ser uma lista de temperaturas associadas a um determinado sensor
-        for (double i = 0, temp = -6; temp <= -8;) {
-        	if(temp >= 5)
-        		i = 1;
-
-            System.out.println("============> " + temp);
-            
-        	temp = (temp <= 5 && i == 0) ? temp++ : temp--;
-            session.insert(new TemperatureEvent(temp, sensor1.getSensorId()));
-        }
-        
-        /*for (double i = 0, temp = -8; temp <= -18;) {
-        	if(temp <= 7)
-        		i = 1;
-        	
-        	temp = (temp <= 7 && i == 0) ? temp++ : temp--;
-            session.insert(new TemperatureEvent(temp, sensor2.getSensorId()));
-        }
-        
-        for (double i = 0, temp = -7; temp <= -12;) {
-        	if(temp <= 9)
-        		i = 1;
-        	temp = (temp <= 9 && i == 0) ? temp++ : temp--;
-            session.insert(new TemperatureEvent(temp, sensor3.getSensorId()));
-        }
-        
-        for (double i = 0, temp = -10; temp <= -5;) {
-        	if(temp <= 10)
-        		i = 1;
-        	temp = (temp <= 10 && i == 0) ? temp++ : temp--;
-            session.insert(new TemperatureEvent(temp, sensor4.getSensorId()));
-        }
-        
-        for (double i = 0, temp = -15; temp <= -4;) {
-        	if(temp <= 3)
-        		i = 1;
-        	
-        	temp = (temp <= 3 && i == 0) ? temp++ : temp--;
-            session.insert(new TemperatureEvent(temp, sensor5.getSensorId()));
-        }*/
-        
+        //Cada sensor possui uma lista de temperaturas
+        this.insertTemp(sensor1, -6, -8, 7, 5, session);
+        this.insertTemp(sensor2, -8, -6, 5, 3, session);
+        this.insertTemp(sensor3, -7, -9, 7, 5, session);
+        this.insertTemp(sensor4, -10, -6, 4, 2, session);
+        this.insertTemp(sensor5, -15, -10, 8, 6, session);     
         
         LOG.info("Final checks");
         
