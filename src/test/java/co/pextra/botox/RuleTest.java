@@ -14,14 +14,6 @@ package co.pextra.botox;
  * limitations under the License.
 */
 
-
-
-//import static org.junit.Assert.*;
-
-//import java.util.HashSet;
-//import java.util.Set;
-//import java.util.concurrent.TimeUnit;
-
 import br.ufes.inf.lprm.scene.SceneApplication;
 import br.ufes.inf.lprm.scene.base.listeners.SCENESessionListener;
 import co.pextra.botox.TemperatureEvent;
@@ -53,12 +45,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-//import co.pextra.botox.*;
-
 public class RuleTest<T> {
     static final Logger LOG = LoggerFactory.getLogger(RuleTest.class);
 
-    public void insertTemp(Sensor s, int temp_start, int temp_end, int temp_mid, int temp_invert, KieSession session){
+    public void insertTemperatures(Sensor s, int temp_start, int temp_end, int temp_mid, int temp_invert, KieSession session){
     	
     	for(int temp = temp_start, invert = 0; (temp <= temp_mid && invert == 0) || (temp >= temp_end && invert == 1); ){
         	if(temp > temp_invert){
@@ -124,11 +114,11 @@ public class RuleTest<T> {
         session.insert(sensor5);
         
         //Cada sensor possui uma lista de temperaturas
-        this.insertTemp(sensor1, -6, -8, 7, 5, session);
-        this.insertTemp(sensor2, -8, -6, 5, 3, session);
-        this.insertTemp(sensor3, -7, -9, 7, 5, session);
-        this.insertTemp(sensor4, -10, -6, 4, 2, session);
-        this.insertTemp(sensor5, -15, -10, 8, 6, session);     
+        this.insertTemperatures(sensor1, -6, -8, 7, 5, session);
+        this.insertTemperatures(sensor2, -8, -6, 5, 3, session);
+        this.insertTemperatures(sensor3, -7, -9, 7, 5, session);
+        this.insertTemperatures(sensor4, -10, -6, 4, 2, session);
+        this.insertTemperatures(sensor5, -15, -10, 8, 6, session);     
         
         LOG.info("Final checks");
         
