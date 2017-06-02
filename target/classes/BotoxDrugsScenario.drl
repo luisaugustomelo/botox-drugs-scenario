@@ -20,9 +20,9 @@ rule "More than 3 high temperatures in two minutes for a sensor of temperature"
 @role(situation)
 @type(TemperatureSituation)
     when
-       data : Data();
+       data : Data()
        transactions: List(size > 3) from accumulate(
-          transaction: TemperatureEvent(data.getTemperature() > -3) over window:time (2m),
+          transaction: TemperatureEvent(data.Temperature > -3) over window:time (2m),
           collectList(transaction)
        )
      then
