@@ -48,7 +48,7 @@ import org.slf4j.LoggerFactory;
 public class RuleTest<T> {
     static final Logger LOG = LoggerFactory.getLogger(RuleTest.class);
 
-    public void insertTemperatures(Sensor s, int temp_start, int temp_end, int temp_mid, int temp_invert, KieSession session){
+    public static void insertTemperatures(Sensor s, int temp_start, int temp_end, int temp_mid, int temp_invert, KieSession session){
     	
     	for(int temp = temp_start, invert = 0; (temp <= temp_mid && invert == 0) || (temp >= temp_end && invert == 1); ){
         	if(temp > temp_invert){
@@ -65,7 +65,7 @@ public class RuleTest<T> {
     }
     
     @Test
-    public void test() throws InterruptedException, ExecutionException {
+    public static final void main(String[] args) throws InterruptedException, ExecutionException {
     	
         KieServices kieServices = KieServices.Factory.get();
 
@@ -114,11 +114,11 @@ public class RuleTest<T> {
         session.insert(sensor5);
         
         //Cada sensor possui uma lista de temperaturas
-        this.insertTemperatures(sensor1, -6, -8, 7, 5, session);
-        this.insertTemperatures(sensor2, -8, -6, 5, 3, session);
-        this.insertTemperatures(sensor3, -7, -9, 7, 5, session);
-        this.insertTemperatures(sensor4, -10, -6, 4, 2, session);
-        this.insertTemperatures(sensor5, -15, -10, 8, 6, session);     
+        insertTemperatures(sensor1, -6, -8, 7, 5, session);
+        insertTemperatures(sensor2, -8, -6, 5, 3, session);
+        insertTemperatures(sensor3, -7, -9, 7, 5, session);
+        insertTemperatures(sensor4, -10, -6, 4, 2, session);
+        insertTemperatures(sensor5, -15, -10, 8, 6, session);     
         
         LOG.info("Final checks");
         
