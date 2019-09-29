@@ -69,8 +69,10 @@ rule "start botox situation when have a one case suspicious"
          collectList($sit)
        )
 	then
+		System.out.println("Aqui deverá iniciar o print de um processo");
 		//ProcessInstance processInstance = kcontext.getKieRuntime().startProcess("co.pextra.botox.notification");
-		System.out.println("uma situação de temperatura ocorreu");
+		System.out.println("Aqui deverá terminar o print de um processo");
+		
 end
 
 /* Criar uma regra que verifica se existem 5 SENSORES (e não ocorrencia de temperatura) em uma janela de tempo de 2 minutos com temperatura elevada.

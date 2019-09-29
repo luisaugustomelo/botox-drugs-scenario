@@ -16,6 +16,7 @@
     <version.org.jbpm>6.5.0.Final</version.org.jbpm>
     <slf4j-version>1.7.2</slf4j-version>
     <junit-version>4.12</junit-version>
+    <camel-version>2.24.2</camel-version>
   </properties>
 
   <dependencyManagement>
@@ -86,6 +87,19 @@
 	      <artifactId>scene-core</artifactId>
 	      <version>1.1.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.camel/camel-core -->
+	<dependency>
+	    <groupId>org.apache.camel</groupId>
+	    <artifactId>camel-core</artifactId>
+	    <version>${camel-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.camel</groupId>
+	    <artifactId>camel-test</artifactId>
+	    <version>${camel-version}</version>
+	    <scope>test</scope>
+	</dependency>
+    
   </dependencies>
 
   <repositories>
