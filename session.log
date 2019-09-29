@@ -1,490 +1,90 @@
-14:05:02,018 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:05:02,018 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@396f6598
-14:05:02,023 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:05:02,023  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.837 seconds
-14:05:02,024  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.018 seconds
-14:07:47,134  INFO RuleTest:252 - ********************************************************************************
-14:07:47,136  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:07:47,140  INFO RuleTest:254 - ********************************************************************************
-14:07:47,140 DEBUG RuleTest:316 - setUp test
-14:07:47,231 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:07:47,255 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 23 millis
-14:07:47,257 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@48503868
-14:07:47,262 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@1b68ddbd to resolve component with name: properties
-14:07:47,263 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:07:47,263 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:07:47,268 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:07:47,284 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:07:47,284 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:07:47,284  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:07:47,285 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@7a30d1e6, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@5891e32e, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@cb0ed20
-14:07:47,285  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:07:47,297 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:07:47,313 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:07:47,314 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:07:47,315  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:07:47,315 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:07:47,315 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:07:47,316 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:07:47,317 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@4ba2ca36
-14:07:47,320  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:07:47,321 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:07:47,321 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@442675e1
-14:07:47,321  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:07:47,323  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.037 seconds
-14:07:47,324 DEBUG RuleTest:398 - Routing Rules are: []
-14:07:48,042 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:07:48,097  INFO RuleTest:422 - ********************************************************************************
-14:07:48,097  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:07:48,098  INFO RuleTest:424 - Took: 0.773 seconds (773 millis)
-14:07:48,098  INFO RuleTest:453 - ********************************************************************************
-14:07:48,098 DEBUG CamelTestSupport:476 - tearDown test
-14:07:48,098 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@4ba2ca36
-14:07:48,099  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:07:48,099 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:07:48,103 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:07:48,103 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:07:48,103 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:07:48,103 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@48503868
-14:07:48,108 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:07:48,108  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.824 seconds
-14:07:48,109  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.009 seconds
-14:08:12,482  INFO RuleTest:252 - ********************************************************************************
-14:08:12,485  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:08:12,485  INFO RuleTest:254 - ********************************************************************************
-14:08:12,485 DEBUG RuleTest:316 - setUp test
-14:08:12,587 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:08:12,613 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 25 millis
-14:08:12,615 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@23faf8f2
-14:08:12,620 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@3712b94 to resolve component with name: properties
-14:08:12,621 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:08:12,621 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:08:12,626 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:08:12,641 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:08:12,642 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:08:12,642  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:08:12,643 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@569cfc36, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@43bd930a, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@33723e30
-14:08:12,643  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:08:12,655 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:08:12,671 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:08:12,672 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:08:12,673  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:08:12,673 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:08:12,673 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:08:12,674 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:08:12,675 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@3e77a1ed
-14:08:12,678  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:08:12,678 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:08:12,678 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@10b48321
-14:08:12,679  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:08:12,681  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.037 seconds
-14:08:12,681 DEBUG RuleTest:398 - Routing Rules are: []
-14:08:13,381 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:08:13,438  INFO RuleTest:422 - ********************************************************************************
-14:08:13,438  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:08:13,438  INFO RuleTest:424 - Took: 0.757 seconds (757 millis)
-14:08:13,439  INFO RuleTest:453 - ********************************************************************************
-14:08:13,439 DEBUG CamelTestSupport:476 - tearDown test
-14:08:13,439 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@3e77a1ed
-14:08:13,440  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:08:13,440 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:08:13,446 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:08:13,446 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:08:13,447 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:08:13,447 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@23faf8f2
-14:08:13,451 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:08:13,451  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.809 seconds
-14:08:13,451  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.011 seconds
-14:08:28,711  INFO RuleTest:252 - ********************************************************************************
-14:08:28,712  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:08:28,713  INFO RuleTest:254 - ********************************************************************************
-14:08:28,713 DEBUG RuleTest:316 - setUp test
-14:08:28,804 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:08:28,828 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 23 millis
-14:08:28,830 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@1c3a4799
-14:08:28,835 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@53f65459 to resolve component with name: properties
-14:08:28,836 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:08:28,836 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:08:28,840 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:08:28,857 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:08:28,857 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:08:28,858  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:08:28,858 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@4671e53b, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@2db7a79b, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@6950e31
-14:08:28,858  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:08:28,870 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:08:28,886 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:08:28,887 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:08:28,887  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:08:28,887 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:08:28,887 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:08:28,889 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:08:28,889 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@71a794e5
-14:08:28,892  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:08:28,893 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:08:28,893 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@25359ed8
-14:08:28,893  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:08:28,896  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.037 seconds
-14:08:28,896 DEBUG RuleTest:398 - Routing Rules are: []
-14:08:29,591 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:08:29,645  INFO RuleTest:422 - ********************************************************************************
-14:08:29,645  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:08:29,646  INFO RuleTest:424 - Took: 0.749 seconds (749 millis)
-14:08:29,646  INFO RuleTest:453 - ********************************************************************************
-14:08:29,646 DEBUG CamelTestSupport:476 - tearDown test
-14:08:29,646 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@71a794e5
-14:08:29,647  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:08:29,647 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:08:29,650 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:08:29,651 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:08:29,651 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:08:29,651 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@1c3a4799
-14:08:29,655 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:08:29,656  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.798 seconds
-14:08:29,656  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.009 seconds
-14:26:50,711  INFO RuleTest:252 - ********************************************************************************
-14:26:50,713  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:26:50,713  INFO RuleTest:254 - ********************************************************************************
-14:26:50,713 DEBUG RuleTest:316 - setUp test
-14:26:50,808 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:26:50,831 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 22 millis
-14:26:50,833 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@33f88ab
-14:26:50,838 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@33c7e1bb to resolve component with name: properties
-14:26:50,839 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:26:50,839 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:26:50,843 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:26:50,859 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:26:50,859 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:26:50,860  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:26:50,861 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@396e2f39, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@a74868d, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@12c8a2c0
-14:26:50,861  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:26:50,874 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:26:50,892 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:26:50,895 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:26:50,896  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:26:50,896 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:26:50,896 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:26:50,897 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:26:50,898 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@641147d0
-14:26:50,901  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:26:50,902 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:26:50,902 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@221af3c0
-14:26:50,902  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:26:50,904  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.042 seconds
-14:26:50,905 DEBUG RuleTest:398 - Routing Rules are: []
-14:26:51,205 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:26:51,269  INFO RuleTest:422 - ********************************************************************************
-14:26:51,270  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:26:51,270  INFO RuleTest:424 - Took: 0.364 seconds (364 millis)
-14:26:51,270  INFO RuleTest:453 - ********************************************************************************
-14:26:51,270 DEBUG CamelTestSupport:476 - tearDown test
-14:26:51,270 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@641147d0
-14:26:51,273  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:26:51,274 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:26:51,277 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:26:51,277 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:26:51,277 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:26:51,277 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@33f88ab
-14:26:51,281 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:26:51,281  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.421 seconds
-14:26:51,281  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.008 seconds
-14:27:10,949  INFO RuleTest:252 - ********************************************************************************
-14:27:10,951  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:27:10,952  INFO RuleTest:254 - ********************************************************************************
-14:27:10,952 DEBUG RuleTest:316 - setUp test
-14:27:11,040 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:27:11,063 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 22 millis
-14:27:11,065 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@2d6eabae
-14:27:11,070 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@2833cc44 to resolve component with name: properties
-14:27:11,071 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:27:11,071 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:27:11,075 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:27:11,091 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:27:11,092 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:27:11,092  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:27:11,093 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@43bd930a, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@33723e30, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@64f6106c
-14:27:11,093  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:27:11,105 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:27:11,122 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:27:11,123 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:27:11,123  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:27:11,123 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:27:11,123 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:27:11,125 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:27:11,126 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@3ffcd140
-14:27:11,128  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:27:11,129 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:27:11,129 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@6b67034
-14:27:11,129  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:27:11,132  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.038 seconds
-14:27:11,132 DEBUG RuleTest:398 - Routing Rules are: []
-14:27:11,852 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:27:11,934  INFO RuleTest:422 - ********************************************************************************
-14:27:11,934  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:27:11,934  INFO RuleTest:424 - Took: 0.802 seconds (802 millis)
-14:27:11,934  INFO RuleTest:453 - ********************************************************************************
-14:27:11,934 DEBUG CamelTestSupport:476 - tearDown test
-14:27:11,934 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@3ffcd140
-14:27:11,935  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:27:11,936 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:27:11,939 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:27:11,939 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:27:11,939 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:27:11,939 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@2d6eabae
-14:27:11,943 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:27:11,943  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.851 seconds
-14:27:11,944  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.008 seconds
-14:27:27,187  INFO RuleTest:252 - ********************************************************************************
-14:27:27,189  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:27:27,189  INFO RuleTest:254 - ********************************************************************************
-14:27:27,189 DEBUG RuleTest:316 - setUp test
-14:27:27,283 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:27:27,309 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 25 millis
-14:27:27,311 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@26aa12dd
-14:27:27,316 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@1786dec2 to resolve component with name: properties
-14:27:27,317 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:27:27,317 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:27:27,322 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:27:27,342 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:27:27,342 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:27:27,343  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:27:27,343 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@6950e31, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@b7dd107, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@42eca56e
-14:27:27,344  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:27:27,355 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:27:27,372 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:27:27,372 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:27:27,373  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:27:27,373 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:27:27,373 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:27:27,375 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:27:27,375 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@5e25a92e
-14:27:27,378  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:27:27,379 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:27:27,379 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@5606c0b
-14:27:27,379  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:27:27,382  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.037 seconds
-14:27:27,382 DEBUG RuleTest:398 - Routing Rules are: []
-14:27:28,078 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:27:28,135  INFO RuleTest:422 - ********************************************************************************
-14:27:28,135  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:27:28,135  INFO RuleTest:424 - Took: 0.753 seconds (753 millis)
-14:27:28,135  INFO RuleTest:453 - ********************************************************************************
-14:27:28,135 DEBUG CamelTestSupport:476 - tearDown test
-14:27:28,135 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@5e25a92e
-14:27:28,136  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:27:28,137 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:27:28,140 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:27:28,140 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:27:28,140 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:27:28,140 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@26aa12dd
-14:27:28,144 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:27:28,144  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.802 seconds
-14:27:28,144  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.008 seconds
-14:29:59,566  INFO RuleTest:252 - ********************************************************************************
-14:29:59,568  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:29:59,568  INFO RuleTest:254 - ********************************************************************************
-14:29:59,568 DEBUG RuleTest:316 - setUp test
-14:29:59,654 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:29:59,677 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 22 millis
-14:29:59,679 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@704a52ec
-14:29:59,683 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@80503 to resolve component with name: properties
-14:29:59,684 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:29:59,685 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:29:59,689 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:29:59,705 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:29:59,705 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:29:59,705  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:29:59,706 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@64485a47, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@25bbf683, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@6ec8211c
-14:29:59,706  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:29:59,717 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:29:59,733 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:29:59,734 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:29:59,734  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:29:59,735 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:29:59,735 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:29:59,736 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:29:59,737 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@1e9e725a
-14:29:59,740  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:29:59,740 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:29:59,740 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@ba8d91c
-14:29:59,741  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:29:59,743  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.036 seconds
-14:29:59,743 DEBUG RuleTest:398 - Routing Rules are: []
-14:30:00,458 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:30:00,542  INFO RuleTest:422 - ********************************************************************************
-14:30:00,542  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:30:00,543  INFO RuleTest:424 - Took: 0.799 seconds (799 millis)
-14:30:00,543  INFO RuleTest:453 - ********************************************************************************
-14:30:00,543 DEBUG CamelTestSupport:476 - tearDown test
-14:30:00,543 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@1e9e725a
-14:30:00,544  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:30:00,544 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:30:00,547 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:30:00,547 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:30:00,547 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:30:00,547 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@704a52ec
-14:30:00,550 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:30:00,551  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.845 seconds
-14:30:00,551  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.007 seconds
-14:30:59,682  INFO RuleTest:252 - ********************************************************************************
-14:30:59,683  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:30:59,683  INFO RuleTest:254 - ********************************************************************************
-14:30:59,684 DEBUG RuleTest:316 - setUp test
-14:30:59,771 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:30:59,794 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 22 millis
-14:30:59,796 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@5f282abb
-14:30:59,801 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@2781e022 to resolve component with name: properties
-14:30:59,802 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:30:59,802 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:30:59,806 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:30:59,822 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:30:59,822 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:30:59,823  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:30:59,824 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@543c6f6d, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@13eb8acf, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@51c8530f
-14:30:59,824  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:30:59,835 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:30:59,852 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:30:59,853 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:30:59,853  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:30:59,854 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:30:59,854 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:30:59,855 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:30:59,856 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@6a396c1e
-14:30:59,858  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:30:59,859 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:30:59,859 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@49070868
-14:30:59,860  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:30:59,862  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.037 seconds
-14:30:59,862 DEBUG RuleTest:398 - Routing Rules are: []
-14:31:00,561 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:31:00,645  INFO RuleTest:422 - ********************************************************************************
-14:31:00,645  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:31:00,645  INFO RuleTest:424 - Took: 0.783 seconds (783 millis)
-14:31:00,646  INFO RuleTest:453 - ********************************************************************************
-14:31:00,646 DEBUG CamelTestSupport:476 - tearDown test
-14:31:00,646 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@6a396c1e
-14:31:00,647  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:31:00,647 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:31:00,649 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:31:00,649 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:31:00,649 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:31:00,649 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@5f282abb
-14:31:00,653 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:31:00,653  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 0.830 seconds
-14:31:00,653  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.006 seconds
-14:33:50,151  INFO RuleTest:252 - ********************************************************************************
-14:33:50,153  INFO RuleTest:253 - Testing: Test(co.pextra.botox.RuleTest)
-14:33:50,153  INFO RuleTest:254 - ********************************************************************************
-14:33:50,153 DEBUG RuleTest:316 - setUp test
-14:33:50,238 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-14:33:50,260 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 21 millis
-14:33:50,262 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@15d0c81b
-14:33:50,267 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@7a1ebcd8 to resolve component with name: properties
-14:33:50,268 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:33:50,268 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:33:50,272 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:33:50,288 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:33:50,288 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:33:50,289  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-14:33:50,289 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@2a70a3d8, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@289d1c02, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@22eeefeb
-14:33:50,290  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:33:50,301 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:33:50,317 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:33:50,317 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:33:50,318  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:33:50,318 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:33:50,318 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:33:50,320 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:33:50,320 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@71248c21
-14:33:50,323  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:33:50,324 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:33:50,324 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@473b46c3
-14:33:50,324  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:33:50,326  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.036 seconds
-14:33:50,327 DEBUG RuleTest:398 - Routing Rules are: []
-14:33:50,409  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-14:33:50,410 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-14:33:50,523  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-14:33:50,528  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\pom.xml
-14:33:50,529 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-14:33:50,531  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\target\classes]
-14:33:50,532  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-14:33:50,532 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-14:33:50,535  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-14:33:50,535  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-14:33:50,536  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-14:33:50,538 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-14:33:50,538  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-14:33:51,728  INFO RuleTest:339 - Creating kieBase
-14:33:51,754 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:33:51,808  INFO RuleTest:345 - There should be rules: 
-14:33:51,808  INFO RuleTest:348 - kp [Package name=co.pextra.botox] rule Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos
-14:33:51,808  INFO RuleTest:348 - kp [Package name=co.pextra.botox] rule More than 5 high temperatures in two minutes for a sensor of temperature
-14:33:51,808  INFO RuleTest:348 - kp [Package name=co.pextra.botox] rule More than 10 high temperatures in two minutes for a sensor of temperature
-14:33:51,808  INFO RuleTest:348 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
-14:33:51,808  INFO RuleTest:348 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-14:33:51,808  INFO RuleTest:348 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-14:33:51,808  INFO RuleTest:348 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-14:33:51,808  INFO RuleTest:348 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-14:33:51,808  INFO RuleTest:352 - Creating kieSession
-14:33:51,928  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-14:33:51,929 DEBUG KieRepositoryImpl:91 - Cannot load a KieRepositoryScanner, using the DummyKieScanner
-14:33:51,932 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:33:51,942  INFO RuleTest:422 - ********************************************************************************
-14:33:51,942  INFO RuleTest:423 - Testing done: Test(co.pextra.botox.RuleTest)
-14:33:51,942  INFO RuleTest:424 - Took: 1.615 seconds (1615 millis)
-14:33:51,942  INFO RuleTest:453 - ********************************************************************************
-14:33:51,942 DEBUG CamelTestSupport:476 - tearDown test
-14:33:51,942 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@71248c21
-14:33:51,943  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-14:33:51,943 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:33:51,945 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,945 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,945 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:33:51,946 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@15d0c81b
-14:33:51,949 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,949  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 1.661 seconds
-14:33:51,949  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.006 seconds
-14:33:51,952  INFO RuleTest:252 - ********************************************************************************
-14:33:51,952  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:33:51,952  INFO RuleTest:254 - ********************************************************************************
-14:33:51,952 DEBUG RuleTest:316 - setUp test
-14:33:51,952 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@30506c0d
-14:33:51,953 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@1dcca8d3 to resolve component with name: properties
-14:33:51,953 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-14:33:51,953 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-14:33:51,953 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-14:33:51,954 DEBUG RuleTest:382 - Using created route builder: Routes: []
-14:33:51,954 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-14:33:51,954  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-2) is starting
-14:33:51,955 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@6e1f8469, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@2e380628, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@3b6c624
-14:33:51,955  INFO DefaultManagementStrategy:232 - JMX is disabled
-14:33:51,955 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-14:33:51,956 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-14:33:51,956 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-14:33:51,957  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-14:33:51,957 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-14:33:51,957 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-14:33:51,958 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-14:33:51,958 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@31ee96f4
-14:33:51,958  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-14:33:51,959 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-14:33:51,959 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@14fc5d40
-14:33:51,959  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-14:33:51,959  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-2) started in 0.005 seconds
-14:33:51,959 DEBUG RuleTest:398 - Routing Rules are: []
-14:33:51,977 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-14:33:51,987  INFO RuleTest:422 - ********************************************************************************
-14:33:51,987  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-14:33:51,987  INFO RuleTest:424 - Took: 0.028 seconds (28 millis)
-14:33:51,987  INFO RuleTest:453 - ********************************************************************************
-14:33:51,987 DEBUG CamelTestSupport:476 - tearDown test
-14:33:51,987 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@31ee96f4
-14:33:51,987  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutting down
-14:33:51,987 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-14:33:51,988 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,988 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,988 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-14:33:51,988 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@30506c0d
-14:33:51,988 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-14:33:51,988  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.034 seconds
-14:33:51,988  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.001 seconds
+14:53:19,809 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@23bb8443
+14:53:19,810  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
+14:53:19,812  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.038 seconds
+14:53:19,813 DEBUG RuleTest:398 - Routing Rules are: []
+14:53:19,895  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
+14:53:19,897 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
+14:53:20,011  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
+14:53:20,016  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\pom.xml
+14:53:20,017 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
+14:53:20,020  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\target\classes]
+14:53:20,020  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
+14:53:20,020 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+14:53:20,024  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+14:53:20,024  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+14:53:20,024  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
+14:53:20,027 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
+14:53:20,027  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
+14:53:21,216  INFO RuleTest:346 - Creating kieBase
+14:53:21,242 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+14:53:21,296  INFO RuleTest:352 - There should be rules: 
+14:53:21,296  INFO RuleTest:355 - kp [Package name=co.pextra.botox] rule Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos
+14:53:21,297  INFO RuleTest:355 - kp [Package name=co.pextra.botox] rule More than 5 high temperatures in two minutes for a sensor of temperature
+14:53:21,297  INFO RuleTest:355 - kp [Package name=co.pextra.botox] rule More than 10 high temperatures in two minutes for a sensor of temperature
+14:53:21,297  INFO RuleTest:355 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
+14:53:21,297  INFO RuleTest:355 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
+14:53:21,297  INFO RuleTest:355 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
+14:53:21,297  INFO RuleTest:355 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
+14:53:21,297  INFO RuleTest:355 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
+14:53:21,297  INFO RuleTest:359 - Creating kieSession
+14:53:21,418  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
+14:53:21,420 DEBUG KieRepositoryImpl:91 - Cannot load a KieRepositoryScanner, using the DummyKieScanner
+14:53:21,422 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
+14:53:21,432  INFO RuleTest:422 - ********************************************************************************
+14:53:21,432  INFO RuleTest:423 - Testing done: Test(co.pextra.botox.RuleTest)
+14:53:21,433  INFO RuleTest:424 - Took: 1.619 seconds (1619 millis)
+14:53:21,433  INFO RuleTest:453 - ********************************************************************************
+14:53:21,433 DEBUG CamelTestSupport:476 - tearDown test
+14:53:21,433 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@4e41089d
+14:53:21,434  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
+14:53:21,434 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
+14:53:21,436 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,437 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,437 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
+14:53:21,437 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@5d76b067
+14:53:21,440 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,440  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 1.668 seconds
+14:53:21,440  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.006 seconds
+14:53:21,443  INFO RuleTest:252 - ********************************************************************************
+14:53:21,443  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
+14:53:21,443  INFO RuleTest:254 - ********************************************************************************
+14:53:21,443 DEBUG RuleTest:316 - setUp test
+14:53:21,444 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@65bb9029
+14:53:21,444 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@1bfe3203 to resolve component with name: properties
+14:53:21,444 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
+14:53:21,444 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
+14:53:21,445 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
+14:53:21,446 DEBUG RuleTest:382 - Using created route builder: Routes: []
+14:53:21,446 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
+14:53:21,446  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-2) is starting
+14:53:21,446 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@6daf2337, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@24fabd0f, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@250b236d
+14:53:21,446  INFO DefaultManagementStrategy:232 - JMX is disabled
+14:53:21,446 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
+14:53:21,448 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
+14:53:21,448 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
+14:53:21,448  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
+14:53:21,449 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
+14:53:21,449 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
+14:53:21,449 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
+14:53:21,449 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@60e5272
+14:53:21,450  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+14:53:21,450 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
+14:53:21,451 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@63da207f
+14:53:21,451  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
+14:53:21,451  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-2) started in 0.005 seconds
+14:53:21,451 DEBUG RuleTest:398 - Routing Rules are: []
+14:53:21,451  INFO RuleTest:422 - ********************************************************************************
+14:53:21,451  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
+14:53:21,451  INFO RuleTest:424 - Took: 0.000 seconds (0 millis)
+14:53:21,451  INFO RuleTest:453 - ********************************************************************************
+14:53:21,451 DEBUG CamelTestSupport:476 - tearDown test
+14:53:21,451 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@60e5272
+14:53:21,451  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutting down
+14:53:21,452 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
+14:53:21,452 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,452 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,452 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
+14:53:21,452 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@65bb9029
+14:53:21,452 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
+14:53:21,452  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.006 seconds
+14:53:21,452  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.001 seconds
