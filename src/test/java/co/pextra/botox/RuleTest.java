@@ -259,10 +259,10 @@ public class RuleTest extends CamelTestSupport {
     private static KieSession getKieSessionFromResource(Resource resource) {
         KieServices ks = KieServices.Factory.get();
         KieFileSystem kfs = ks.newKieFileSystem();
-        Resource rules = ResourceFactory.newFileResource("src/main/resources/BotoxDrugsScenario.drl");
+//        Resource rules = ResourceFactory.newFileResource("src/main/resources/BotoxDrugsScenario.drl");
         
-        //kfs.write(resource);
-        kfs.write(rules);
+        kfs.write(resource);
+        //kfs.write(rules);
         
         KieBuilder kieBuilder = ks.newKieBuilder(kfs);
         
@@ -276,17 +276,42 @@ public class RuleTest extends CamelTestSupport {
         return ks.newKieContainer(ks.getRepository().getDefaultReleaseId()).newKieSession();
     }
     
-    /*public void setExec(CommandExecutor exec) {
-        this.exec = exec;
+    @Test
+    public void TestProcessStringDefinition() {
+     
+       	KieSession kSession = null;
+       	
         try {
-            super.setUp();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        	
+        	KieServices ks = KieServices.Factory.get();
+            KieFileSystem kfs = ks.newKieFileSystem();
+            
+            kfs.write(ResourceFactory.newByteArrayResource(process.getBytes("utf-8")).setSourcePath("src/main/resources/my-process.bpmn").setResourceType(ResourceType.BPMN2));
+            
+            KieBuilder kieBuilder = ks.newKieBuilder(kfs);
+            
+            kieBuilder.buildAll();
+
+            List<Message> errors = kieBuilder.getResults().getMessages(Message.Level.ERROR);
+            if (!errors.isEmpty()) {
+                fail("" + errors);
+            }
+
+            kSession = ks.newKieContainer(ks.getRepository().getDefaultReleaseId()).newKieSession();
+            
+            ProcessInstance processInstance = kSession.startProcess("co.pextra.botox.notification");
+            
+            
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } finally {
+            if (kSession != null)
+                kSession.dispose();
         }
-    }*/
+    }
     
     @Test
-    public void messageRuleFromUTFString() {
+    public void TestRuleStringDefinition() {
      String ruleContent =
          "package rules\r\n"+
          "import co.pextra.botox.RuleTest.Message2\r\n" +
@@ -296,24 +321,36 @@ public class RuleTest extends CamelTestSupport {
             "    then\r\n" +
             "\t\tSystem.out.println(\"Works!\");\r\n" +
             "end\r\n";
+     
        	KieSession kSession = null;
+       	
         try {
-            KnowledgeBuilder kb = KnowledgeBuilderFactory.newKnowledgeBuilder();
-            kb.add(ResourceFactory.newByteArrayResource(ruleContent.getBytes("utf-8")), ResourceType.DRL);
+        	
+        	KieServices ks = KieServices.Factory.get();
+            KieFileSystem kfs = ks.newKieFileSystem();
+            
+            kfs.write(ResourceFactory.newByteArrayResource(ruleContent.getBytes("utf-8")).setSourcePath("src/main/resources/my-rule.drl").setResourceType(ResourceType.DRL));
+            //kfs.write(ResourceFactory.newByteArrayResource(ruleContent.getBytes("utf-8")).setSourcePath("src/main/resources/my-process.bpmn").setResourceType(ResourceType.BPMN2));
+            
+            KieBuilder kieBuilder = ks.newKieBuilder(kfs);
+            
+            kieBuilder.buildAll();
 
-            KnowledgeBuilderErrors errors = kb.getErrors();
-            for (KnowledgeBuilderError error : errors) {
-                System.out.println(error);
+            List<Message> errors = kieBuilder.getResults().getMessages(Message.Level.ERROR);
+            if (!errors.isEmpty()) {
+                fail("" + errors);
             }
-            KnowledgeBase kBase = KnowledgeBaseFactory.newKnowledgeBase();
-            kBase.addKnowledgePackages(kb.getKnowledgePackages());
-            kSession = kBase.newKieSession();
+
+            kSession = ks.newKieContainer(ks.getRepository().getDefaultReleaseId()).newKieSession();
+            
             final Message2 message = new Message2();
             message.setId("38196-2");
             message.setStatus( Message2.HELLO );
             kSession.insert( message );
+            
             kSession.fireAllRules();
-
+            
+            
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } finally {
