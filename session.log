@@ -1,421 +1,319 @@
-15:33:15,171 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@771db12c
-15:33:15,171 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:33:15,171  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.043 seconds
-15:33:15,172  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.003 seconds
-15:35:37,305  INFO RuleTest:252 - ********************************************************************************
-15:35:37,307  INFO RuleTest:253 - Testing: Test(co.pextra.botox.RuleTest)
-15:35:37,307  INFO RuleTest:254 - ********************************************************************************
-15:35:37,311 DEBUG RuleTest:316 - setUp test
-15:35:37,401 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-15:35:37,424 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 22 millis
-15:35:37,426 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@3712b94
-15:35:37,431 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@2bbf4b8b to resolve component with name: properties
-15:35:37,432 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:35:37,433 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:35:37,438 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:35:37,455 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:35:37,455 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:35:37,456  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-15:35:37,456 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@78ac1102, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@2de8284b, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@396e2f39
-15:35:37,457  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:35:37,470 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:35:37,487 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:35:37,487 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:35:37,488  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:35:37,488 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:35:37,488 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:35:37,490 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:35:37,490 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@6b0c2d26
-15:35:37,493  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:35:37,494 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:35:37,494 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@77be656f
-15:35:37,494  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:35:37,496  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.038 seconds
-15:35:37,497 DEBUG RuleTest:398 - Routing Rules are: []
-15:35:37,579  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-15:35:37,580 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:35:37,701  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:35:37,707  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\pom.xml
-15:35:37,708 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-15:35:37,711  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\target\classes]
-15:35:37,711  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-15:35:37,711 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:35:37,715  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:35:37,715  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:35:37,715  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-15:35:37,717 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-15:35:37,718  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-15:35:39,034  INFO RuleTest:341 - Creating kieBase
-15:35:39,061 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:35:39,119  INFO RuleTest:347 - There should be rules: 
-15:35:39,119  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos
-15:35:39,119  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule More than 5 high temperatures in two minutes for a sensor of temperature
-15:35:39,120  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule More than 10 high temperatures in two minutes for a sensor of temperature
-15:35:39,120  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
-15:35:39,120  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-15:35:39,120  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-15:35:39,120  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-15:35:39,120  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-15:35:39,120  INFO RuleTest:354 - Creating kieSession
-15:35:39,271  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:35:39,272 DEBUG KieRepositoryImpl:91 - Cannot load a KieRepositoryScanner, using the DummyKieScanner
-15:35:39,274 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:35:39,285  INFO RuleTest:422 - ********************************************************************************
-15:35:39,285  INFO RuleTest:423 - Testing done: Test(co.pextra.botox.RuleTest)
-15:35:39,286  INFO RuleTest:424 - Took: 1.788 seconds (1788 millis)
-15:35:39,286  INFO RuleTest:453 - ********************************************************************************
-15:35:39,286 DEBUG CamelTestSupport:476 - tearDown test
-15:35:39,286 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@6b0c2d26
-15:35:39,289  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-15:35:39,289 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:35:39,293 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,293 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,293 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:35:39,294 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@3712b94
-15:35:39,298 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,298  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 1.842 seconds
-15:35:39,298  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.009 seconds
-15:35:39,301  INFO RuleTest:252 - ********************************************************************************
-15:35:39,301  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-15:35:39,301  INFO RuleTest:254 - ********************************************************************************
-15:35:39,301 DEBUG RuleTest:316 - setUp test
-15:35:39,301 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@19569ebd
-15:35:39,301 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@4632cfc to resolve component with name: properties
-15:35:39,302 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:35:39,302 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:35:39,302 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:35:39,303 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:35:39,303 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:35:39,304  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-2) is starting
-15:35:39,304 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@62e6a3ec, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@5754de72, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@31ee96f4
-15:35:39,304  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:35:39,304 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:35:39,305 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:35:39,305 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:35:39,306  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:35:39,306 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:35:39,306 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:35:39,307 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:35:39,307 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@47d7bfb3
-15:35:39,307  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:35:39,308 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:35:39,308 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@51dbd6e4
-15:35:39,308  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:35:39,308  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-2) started in 0.005 seconds
-15:35:39,308 DEBUG RuleTest:398 - Routing Rules are: []
-15:35:39,534 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/Nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/js with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JS with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JavaScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/javascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ECMAScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,535 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ecmascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@390877d2
-15:35:39,564 ERROR ExtensibleXmlParser:687 - (null: 1, 1): O conteúdo não é permitido no prólogo.
-15:35:39,567 ERROR AbstractKieModule:250 - Unable to build KieBaseModel:defaultKieBase
-ProcessLoadError: unable to parse xml : Exception class org.xml.sax.SAXParseException : O conteúdo não é permitido no prólogo.
-
-15:35:39,567  INFO RuleTest:422 - ********************************************************************************
-15:35:39,567  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-15:35:39,567  INFO RuleTest:424 - Took: 0.259 seconds (259 millis)
-15:35:39,567  INFO RuleTest:453 - ********************************************************************************
-15:35:39,567 DEBUG CamelTestSupport:476 - tearDown test
-15:35:39,567 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@47d7bfb3
-15:35:39,568  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutting down
-15:35:39,568 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:35:39,568 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,568 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,568 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:35:39,568 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@19569ebd
-15:35:39,569 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:35:39,569  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.266 seconds
-15:35:39,569  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.001 seconds
-15:36:15,594  INFO RuleTest:252 - ********************************************************************************
-15:36:15,597  INFO RuleTest:253 - Testing: Test(co.pextra.botox.RuleTest)
-15:36:15,597  INFO RuleTest:254 - ********************************************************************************
-15:36:15,597 DEBUG RuleTest:316 - setUp test
-15:36:15,692 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-15:36:15,718 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 25 millis
-15:36:15,720 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@396f6598
-15:36:15,725 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@76f2b07d to resolve component with name: properties
-15:36:15,726 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:36:15,726 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:36:15,731 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:36:15,746 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:36:15,746 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:36:15,747  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-15:36:15,747 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@28ac3dc3, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@32eebfca, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@4e718207
-15:36:15,748  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:36:15,759 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:36:15,775 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:36:15,775 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:36:15,776  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:36:15,776 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:36:15,776 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:36:15,778 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:36:15,778 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@21a947fe
-15:36:15,781  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:36:15,782 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:36:15,782 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@641147d0
-15:36:15,782  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:36:15,784  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.036 seconds
-15:36:15,785 DEBUG RuleTest:398 - Routing Rules are: []
-15:36:15,866  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-15:36:15,867 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:36:15,988  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:36:15,994  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\pom.xml
-15:36:15,995 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-15:36:15,997  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\target\classes]
-15:36:15,998  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-15:36:15,998 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:36:16,001  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:36:16,002  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:36:16,002  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-15:36:16,004 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-15:36:16,004  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-15:36:17,340  INFO RuleTest:341 - Creating kieBase
-15:36:17,372 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:36:17,429  INFO RuleTest:347 - There should be rules: 
-15:36:17,429  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos
-15:36:17,429  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule More than 5 high temperatures in two minutes for a sensor of temperature
-15:36:17,430  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule More than 10 high temperatures in two minutes for a sensor of temperature
-15:36:17,430  INFO RuleTest:350 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
-15:36:17,430  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-15:36:17,430  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-15:36:17,430  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-15:36:17,430  INFO RuleTest:350 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-15:36:17,430  INFO RuleTest:354 - Creating kieSession
-15:36:17,571  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:36:17,572 DEBUG KieRepositoryImpl:91 - Cannot load a KieRepositoryScanner, using the DummyKieScanner
-15:36:17,575 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:36:17,589  INFO RuleTest:422 - ********************************************************************************
-15:36:17,589  INFO RuleTest:423 - Testing done: Test(co.pextra.botox.RuleTest)
-15:36:17,589  INFO RuleTest:424 - Took: 1.804 seconds (1804 millis)
-15:36:17,589  INFO RuleTest:453 - ********************************************************************************
-15:36:17,589 DEBUG CamelTestSupport:476 - tearDown test
-15:36:17,589 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@21a947fe
-15:36:17,590  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-15:36:17,591 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:36:17,595 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,595 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,596 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:36:17,596 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@396f6598
-15:36:17,601 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,601  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 1.855 seconds
-15:36:17,601  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.011 seconds
-15:36:17,622  INFO RuleTest:252 - ********************************************************************************
-15:36:17,623  INFO RuleTest:253 - Testing: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-15:36:17,623  INFO RuleTest:254 - ********************************************************************************
-15:36:17,623 DEBUG RuleTest:316 - setUp test
-15:36:17,624 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@215a34b4
-15:36:17,624 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@77bd7fe7 to resolve component with name: properties
-15:36:17,624 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:36:17,625 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:36:17,625 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:36:17,630 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:36:17,630 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:36:17,630  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-2) is starting
-15:36:17,631 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@706cb08, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@4e25147a, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@6b68cb27
-15:36:17,631  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:36:17,631 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:36:17,633 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:36:17,633 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:36:17,634  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:36:17,634 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:36:17,634 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:36:17,635 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:36:17,635 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@5631962
-15:36:17,636  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:36:17,636 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:36:17,636 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@19569ebd
-15:36:17,636  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:36:17,637  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-2) started in 0.007 seconds
-15:36:17,637 DEBUG RuleTest:398 - Routing Rules are: []
-15:36:17,682  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:36:17,697 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:36:17,707  INFO RuleTest:422 - ********************************************************************************
-15:36:17,708  INFO RuleTest:423 - Testing done: messageRuleFromUTFString(co.pextra.botox.RuleTest)
-15:36:17,708  INFO RuleTest:424 - Took: 0.070 seconds (70 millis)
-15:36:17,708  INFO RuleTest:453 - ********************************************************************************
-15:36:17,708 DEBUG CamelTestSupport:476 - tearDown test
-15:36:17,708 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@5631962
-15:36:17,708  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutting down
-15:36:17,708 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:36:17,708 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,708 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,708 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:36:17,709 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@215a34b4
-15:36:17,709 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:36:17,709  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.079 seconds
-15:36:17,709  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.001 seconds
-15:38:06,850  INFO RuleTest:252 - ********************************************************************************
-15:38:06,852  INFO RuleTest:253 - Testing: TestProcessStringDefinition(co.pextra.botox.RuleTest)
-15:38:06,852  INFO RuleTest:254 - ********************************************************************************
-15:38:06,852 DEBUG RuleTest:316 - setUp test
-15:38:06,945 DEBUG LRUCacheFactory:65 - Warming up LRUCache ...
-15:38:06,969 DEBUG LRUCacheFactory:67 - Warming up LRUCache complete in 24 millis
-15:38:06,971 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@9660f4e
-15:38:06,976 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@48503868 to resolve component with name: properties
-15:38:06,977 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:38:06,977 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:38:06,982 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:38:06,998 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:38:06,998 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:38:06,999  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-1) is starting
-15:38:06,999 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@612679d6, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@11758f2a, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@e720b71
-15:38:07,000  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:38:07,011 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:38:07,028 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:38:07,028 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:38:07,029  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:38:07,029 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:38:07,029 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:38:07,031 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:38:07,031 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@17776a8
-15:38:07,034  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:38:07,035 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:38:07,035 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@62fdb4a6
-15:38:07,035  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:38:07,038  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-1) started in 0.036 seconds
-15:38:07,038 DEBUG RuleTest:398 - Routing Rules are: []
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/Nashorn with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/js with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JS with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/JavaScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,480 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/javascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,481 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ECMAScript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,481 DEBUG DataTransformerRegistry:88 - Registered scripting language http://www.java.com/ecmascript with instance org.jbpm.process.core.transformation.JavaScriptingDataTransformer@1623134f
-15:38:07,979  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:38:07,980 DEBUG KieRepositoryImpl:91 - Cannot load a KieRepositoryScanner, using the DummyKieScanner
-15:38:08,084 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:38:08,196  INFO RuleTest:422 - ********************************************************************************
-15:38:08,196  INFO RuleTest:423 - Testing done: TestProcessStringDefinition(co.pextra.botox.RuleTest)
-15:38:08,196  INFO RuleTest:424 - Took: 1.158 seconds (1158 millis)
-15:38:08,196  INFO RuleTest:453 - ********************************************************************************
-15:38:08,196 DEBUG CamelTestSupport:476 - tearDown test
-15:38:08,196 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@17776a8
-15:38:08,198  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutting down
-15:38:08,198 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:38:08,201 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,201 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,201 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:38:08,201 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@9660f4e
-15:38:08,206 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,207  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-1) uptime 1.208 seconds
-15:38:08,207  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-1) is shutdown in 0.009 seconds
-15:38:08,212  INFO RuleTest:252 - ********************************************************************************
-15:38:08,213  INFO RuleTest:253 - Testing: TestRuleStringDefinition(co.pextra.botox.RuleTest)
-15:38:08,216  INFO RuleTest:254 - ********************************************************************************
-15:38:08,216 DEBUG RuleTest:316 - setUp test
-15:38:08,216 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@2bac9ba
-15:38:08,217 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@5b2f8ab6 to resolve component with name: properties
-15:38:08,217 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:38:08,217 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:38:08,218 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:38:08,219 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:38:08,219 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:38:08,219  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-2) is starting
-15:38:08,219 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@4c03a37, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@2e140e59, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@49a71302
-15:38:08,219  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:38:08,220 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:38:08,221 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:38:08,222 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:38:08,222  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:38:08,223 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:38:08,223 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:38:08,223 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:38:08,223 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@4ae263bf
-15:38:08,224  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:38:08,227 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:38:08,228 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@769d513
-15:38:08,228  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:38:08,228  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-2) started in 0.009 seconds
-15:38:08,228 DEBUG RuleTest:398 - Routing Rules are: []
-15:38:08,359  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:38:08,361 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:38:08,397  INFO RuleTest:422 - ********************************************************************************
-15:38:08,398  INFO RuleTest:423 - Testing done: TestRuleStringDefinition(co.pextra.botox.RuleTest)
-15:38:08,398  INFO RuleTest:424 - Took: 0.169 seconds (169 millis)
-15:38:08,398  INFO RuleTest:453 - ********************************************************************************
-15:38:08,398 DEBUG CamelTestSupport:476 - tearDown test
-15:38:08,398 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@4ae263bf
-15:38:08,398  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutting down
-15:38:08,398 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:38:08,398 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,398 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,399 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:38:08,399 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@2bac9ba
-15:38:08,399 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:38:08,399  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-2) uptime 0.180 seconds
-15:38:08,399  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-2) is shutdown in 0.001 seconds
-15:38:08,399  INFO RuleTest:252 - ********************************************************************************
-15:38:08,399  INFO RuleTest:253 - Testing: Test(co.pextra.botox.RuleTest)
-15:38:08,399  INFO RuleTest:254 - ********************************************************************************
-15:38:08,400 DEBUG RuleTest:316 - setUp test
-15:38:08,400 DEBUG SharedProducerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedProducerServicePool@6eb82908
-15:38:08,400 DEBUG DefaultCamelContext:498 - Using ComponentResolver: org.apache.camel.impl.DefaultComponentResolver@4a8df3e2 to resolve component with name: properties
-15:38:08,400 DEBUG ResolverHelper:143 - Lookup Component with name properties in registry. Found: null
-15:38:08,400 DEBUG ResolverHelper:143 - Lookup Component with name properties-component in registry. Found: null
-15:38:08,401 DEBUG DefaultComponentResolver:68 - Found component: properties via type: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/component/properties
-15:38:08,401 DEBUG RuleTest:382 - Using created route builder: Routes: []
-15:38:08,402 DEBUG DefaultCamelContext:1019 - Adding routes from builder: Routes: []
-15:38:08,402  INFO DefaultCamelContext:3137 - Apache Camel 2.24.2 (CamelContext: camel-3) is starting
-15:38:08,402 DEBUG DefaultCamelContext:3296 - Using ClassResolver=org.apache.camel.impl.DefaultClassResolver@1bd0b0e5, PackageScanClassResolver=org.apache.camel.impl.DefaultPackageScanClassResolver@dc7b462, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.DefaultRouteController@1f51431
-15:38:08,402  INFO DefaultManagementStrategy:232 - JMX is disabled
-15:38:08,402 DEBUG AnnotationTypeConverterLoader:122 - Found 3 packages with 19 @Converter classes to load
-15:38:08,404 DEBUG AnnotationTypeConverterLoader:219 - Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar!/META-INF/services/org/apache/camel/TypeConverter
-15:38:08,404 DEBUG AnnotationTypeConverterLoader:99 - No additional package names found in classpath for annotated type converters.
-15:38:08,405  INFO DefaultTypeConverter:66 - Type converters loaded (core: 195, classpath: 0)
-15:38:08,405 DEBUG ResolverHelper:143 - Lookup Language with name simple in registry. Found: null
-15:38:08,406 DEBUG ResolverHelper:143 - Lookup Language with name simple-language in registry. Found: null
-15:38:08,406 DEBUG SimpleLanguage:127 - Simple language predicate/expression cache size: 1000
-15:38:08,406 DEBUG SharedPollingConsumerServicePool:106 - Starting service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@10ee04df
-15:38:08,407  INFO DefaultCamelContext:3464 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
-15:38:08,407 DEBUG HeadersMapFactoryResolver:63 - Creating default HeadersMapFactory
-15:38:08,407 DEBUG DefaultCamelContext:3477 - Using HeadersMapFactory: org.apache.camel.impl.DefaultHeadersMapFactory@7186333e
-15:38:08,408  INFO DefaultCamelContext:3185 - Total 0 routes, of which 0 are started
-15:38:08,408  INFO DefaultCamelContext:3196 - Apache Camel 2.24.2 (CamelContext: camel-3) started in 0.006 seconds
-15:38:08,408 DEBUG RuleTest:398 - Routing Rules are: []
-15:38:08,410  INFO ClasspathKieProject:131 - Found kmodule: file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/META-INF/kmodule.xml
-15:38:08,410 DEBUG ClasspathKieProject:400 - KieModule URL type=file url=/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:38:08,427  WARN ClasspathKieProject:289 - Unable to find pom.properties in /C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes
-15:38:08,428  INFO ClasspathKieProject:331 - Recursed up folders, found and used pom.xml C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\pom.xml
-15:38:08,429 DEBUG ClasspathKieProject:118 - Discovered classpath module botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT
-15:38:08,429  INFO KieRepositoryImpl:113 - KieModule was added: FileKieModule[releaseId=botox-drugs-scenario:co.pextra:0.0.1-SNAPSHOT,file=C:\Users\luisr\eclipse-workspace\botox-drugs-scenario\target\classes]
-15:38:08,429  INFO ClasspathKieProject:131 - Found kmodule: jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/META-INF/kmodule.xml
-15:38:08,429 DEBUG ClasspathKieProject:400 - KieModule URL type=jar url=/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:38:08,432  WARN ClasspathKieProject:261 - Unable to find pom.properties in /C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:38:08,432  WARN ClasspathKieProject:231 - Unable to load pom.properties from/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
-15:38:08,433  WARN ClasspathKieProject:185 - Cannot find maven pom properties for this project. Using the container's default ReleaseId
-15:38:08,435 DEBUG ClasspathKieProject:118 - Discovered classpath module org.default:artifact:1.0.0-SNAPSHOT
-15:38:08,435  INFO KieRepositoryImpl:113 - KieModule was added: ZipKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT,file=C:\Users\luisr\.m2\repository\br\ufes\inf\lprm\scene-core\1.1.1\scene-core-1.1.1.jar]
-15:38:09,124  INFO RuleTest:374 - Creating kieBase
-15:38:09,127 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:38:09,164  INFO RuleTest:380 - There should be rules: 
-15:38:09,164  INFO RuleTest:383 - kp [Package name=co.pextra.botox] rule Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos
-15:38:09,164  INFO RuleTest:383 - kp [Package name=co.pextra.botox] rule More than 5 high temperatures in two minutes for a sensor of temperature
-15:38:09,164  INFO RuleTest:383 - kp [Package name=co.pextra.botox] rule More than 10 high temperatures in two minutes for a sensor of temperature
-15:38:09,164  INFO RuleTest:383 - kp [Package name=co.pextra.botox] rule start botox situation when have a one case suspicious
-15:38:09,164  INFO RuleTest:383 - kp [Package name=br.ufes.inf.lprm.scene.base] rule OnGoingSituation
-15:38:09,164  INFO RuleTest:383 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationType
-15:38:09,164  INFO RuleTest:383 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationActivation
-15:38:09,164  INFO RuleTest:383 - kp [Package name=br.ufes.inf.lprm.scene.base] rule SituationDeactivation
-15:38:09,164  INFO RuleTest:387 - Creating kieSession
-15:38:09,196  INFO KieRepositoryImpl:113 - KieModule was added: MemoryKieModule[releaseId=org.default:artifact:1.0.0-SNAPSHOT]
-15:38:09,198 DEBUG KnowledgeBaseImpl:196 - Starting Engine in PHREAK mode
-15:38:09,200  INFO RuleTest:422 - ********************************************************************************
-15:38:09,200  INFO RuleTest:423 - Testing done: Test(co.pextra.botox.RuleTest)
-15:38:09,200  INFO RuleTest:424 - Took: 0.792 seconds (792 millis)
-15:38:09,200  INFO RuleTest:453 - ********************************************************************************
-15:38:09,200 DEBUG CamelTestSupport:476 - tearDown test
-15:38:09,200 DEBUG SharedPollingConsumerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedPollingConsumerServicePool@10ee04df
-15:38:09,200  INFO DefaultCamelContext:3495 - Apache Camel 2.24.2 (CamelContext: camel-3) is shutting down
-15:38:09,200 DEBUG DefaultAsyncProcessorAwaitManager:212 - Shutting down with no inflight threads.
-15:38:09,201 DEBUG SimpleLanguage:139 - Clearing simple language predicate cache[size=0, hits=0, misses=0, evicted=0]
-15:38:09,201 DEBUG SimpleLanguage:146 - Clearing simple language expression cache[size=0, hits=0, misses=0, evicted=0]
-15:38:09,201 DEBUG DefaultInflightRepository:183 - Shutting down with no inflight exchanges.
-15:38:09,201 DEBUG SharedProducerServicePool:110 - Stopping service pool: org.apache.camel.impl.SharedProducerServicePool@6eb82908
-15:38:09,201 DEBUG IntrospectionSupport:137 - Clearing cache[size=0, hits=0, misses=0, evicted=0]
-15:38:09,201  INFO DefaultCamelContext:3597 - Apache Camel 2.24.2 (CamelContext: camel-3) uptime 0.799 seconds
-15:38:09,201  INFO DefaultCamelContext:3598 - Apache Camel 2.24.2 (CamelContext: camel-3) is shutdown in 0.001 seconds
+22:16:01,828  INFO Reflections:229 - Reflections took 57 ms to scan 68 urls, producing 0 keys and 0 values 
+22:16:01,837 DEBUG Reflections:186 - going to scan these urls:
+file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/
+file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/test-classes/
+22:16:01,857  INFO Reflections:229 - Reflections took 19 ms to scan 2 urls, producing 7 keys and 7 values 
+22:16:01,857 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+22:16:01,858  INFO Reflections:229 - Reflections took 1 ms to scan 1 urls, producing 4 keys and 4 values 
+22:16:01,859 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+22:16:01,861 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner SubTypesScanner
+22:16:01,861 DEBUG Reflections:254 - could not scan file br/ufes/inf/lprm/scene/base/SituationBaseRules.drl in url jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/ with scanner TypeAnnotationsScanner
+22:16:01,861  INFO Reflections:229 - Reflections took 2 ms to scan 1 urls, producing 26 keys and 27 values 
+22:16:01,862 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
+22:16:01,863  INFO Reflections:229 - Reflections took 0 ms to scan 1 urls, producing 3 keys and 4 values 
+22:16:01,863 DEBUG Reflections:186 - going to scan these urls:
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-workitems/6.5.0.Final/jbpm-human-task-workitems-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-core/6.5.0.Final/drools-core-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-persistence-jpa/6.5.0.Final/drools-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-jpa/6.5.0.Final/jbpm-human-task-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+file:/C:/Users/luisr/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-core/6.5.0.Final/jbpm-human-task-core-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/access-bridge-64.jar
+file:/C:/Users/luisr/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/sunpkcs11.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-persistence-jpa/6.5.0.Final/jbpm-persistence-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow-builder/6.5.0.Final/jbpm-flow-builder-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/zipfs.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/jfxrt.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-bpmn2/6.5.0.Final/jbpm-bpmn2-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-internal/6.5.0.Final/kie-internal-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-query-jpa/6.5.0.Final/jbpm-query-jpa-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/mvel/mvel2/2.2.8.Final/mvel2-2.2.8.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-audit/6.5.0.Final/jbpm-audit-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+file:/C:/Users/luisr/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar
+file:/C:/Users/luisr/.m2/repository/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/sunec.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-flow/6.5.0.Final/jbpm-flow-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.9/jackson-mapper-asl-1.9.9.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/localedata.jar
+file:/C:/Users/luisr/eclipse/modeling-2019-09/eclipse/configuration/org.eclipse.osgi/587/0/.cp/
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/jaccess.jar
+file:/C:/Users/luisr/eclipse/modeling-2019-09/eclipse/configuration/org.eclipse.osgi/586/0/.cp/
+file:/C:/Users/luisr/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/dnsns.jar
+file:/C:/Users/luisr/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar
+file:/C:/Users/luisr/.m2/repository/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar
+file:/C:/Users/luisr/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar
+file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/classes/
+file:/C:/Users/luisr/.m2/repository/org/drools/drools-compiler/6.5.0.Final/drools-compiler-6.5.0.Final.jar
+file:/C:/Users/luisr/eclipse-workspace/botox-drugs-scenario/target/test-classes/
+file:/C:/Users/luisr/.m2/repository/javax/mail/mail/1.4.5/mail-1.4.5.jar
+file:/C:/Users/luisr/.m2/repository/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/sunjce_provider.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-runtime-manager/6.5.0.Final/jbpm-runtime-manager-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/jbpm/jbpm-human-task-audit/6.5.0.Final/jbpm-human-task-audit-6.5.0.Final.jar
+file:/C:/Users/luisr/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar
+file:/C:/Users/luisr/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-test/2.24.2/camel-test-2.24.2.jar
+file:/C:/Users/luisr/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final/jboss-annotations-api_1.1_spec-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/nashorn.jar
+file:/C:/Users/luisr/.m2/repository/org/kie/kie-api/6.5.0.Final/kie-api-6.5.0.Final.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/sunmscapi.jar
+file:/C:/Program%20Files/Java/jre1.8.0_231/lib/ext/cldrdata.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+file:/C:/Users/luisr/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+file:/C:/Users/luisr/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar
+file:/C:/Users/luisr/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar
+file:/C:/Users/luisr/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+file:/C:/Users/luisr/.m2/repository/junit/junit/4.12/junit-4.12.jar
+file:/C:/Users/luisr/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar
+file:/C:/Users/luisr/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar
+file:/C:/Users/luisr/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+22:16:01,900  INFO Reflections:229 - Reflections took 37 ms to scan 68 urls, producing 0 keys and 0 values 
+22:16:01,900 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/scene-core/1.1.1/scene-core-1.1.1.jar!/
+22:16:01,901  INFO Reflections:229 - Reflections took 0 ms to scan 1 urls, producing 5 keys and 5 values 
+22:16:01,902 DEBUG Reflections:186 - going to scan these urls:
+jar:file:/C:/Users/luisr/.m2/repository/br/ufes/inf/lprm/situation-model/1.0.0/situation-model-1.0.0.jar!/
+22:16:01,902  INFO Reflections:229 - Reflections took 0 ms to scan 1 urls, producing 2 keys and 3 values 
+22:16:01,905  INFO RuleTest:369 - Now running data
+22:16:01,905 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Sensor@60859f5a
+22:16:01,905 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Sensor@18acfe88
+22:16:01,906 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Sensor@8a2a6a
+22:16:01,906 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Sensor@772861aa
+22:16:01,906 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.Sensor@6631cb64
+22:16:01,908 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@481e91b6
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@7187bac9
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6b8280e6
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6f139fc9
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@55259aa7
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@19382338
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@66420549
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@15dc339f
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6cd56321
+22:16:01,909 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@34acbc60
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@42b28ff1
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@36061cf3
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@718dbd79
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@20134094
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@76889e60
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@706fe5c6
+22:16:01,910 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@56380231
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@64f1fd08
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6b3f6585
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@282ffbf5
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3e104d4b
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@55e2fe3c
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@45e1aa48
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@12c60152
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2e807c54
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6cd164a6
+22:16:01,911 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@242a209e
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@64469d8
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2b8bd798
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4c18621b
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@39c385d6
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1cec219f
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@692e028d
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6629ad09
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@43e1692f
+22:16:01,912 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3e7c4815
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@27df0f3d
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@c35af2a
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@44550792
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1835d3ed
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@474c9131
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@66213a0d
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@aa4d8cc
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3cb8c8ce
+22:16:01,913 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1fde0371
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@70c0a3d5
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5c8e67b9
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@260a3a5e
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@49206065
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3c0bbc9f
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1317b708
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6438a7fe
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2e51d054
+22:16:01,914 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4f5f6e45
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@615e3f51
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@407873d3
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@608bc8f8
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5412bfea
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@44a6a68e
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4743a322
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@79316f3a
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@381d7219
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@49fe3142
+22:16:01,915 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@13fed1ec
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@61c42416
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@329a1f8d
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@a565cbd
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6fc29daa
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2f66f0d0
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4d62f4c6
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@7569ea63
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@ebd06a9
+22:16:01,916 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@16c587de
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4cdb8504
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@76db540e
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@10358c32
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2af4129d
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3a175162
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1640190a
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2a2843ec
+22:16:01,917 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2042ccce
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@20de05e5
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@36c0d0bd
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5e1fc2aa
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@688d411b
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@382c90c2
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@859ea42
+22:16:01,918 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@28737371
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2af46afd
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@760245e1
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@31ceba99
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@295bf2a
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@bbf9e07
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6ff6efdc
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2b289ac9
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4eb1c69
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@73d3e555
+22:16:01,919 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2b037cfc
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@44924587
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@18460128
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@74d3b638
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4487c0c2
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@126f1ba8
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3a08078c
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@53830483
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@29f85fe1
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@43a0a32d
+22:16:01,920 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@396ef8b2
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@72825400
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@19ee1ae6
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@5f117b3d
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1174a305
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@71b6d77f
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1866da85
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@4cfa8227
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@78226c36
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3f685162
+22:16:01,921 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@11f406f8
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@987455b
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@622fdb81
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1f3165e7
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2ec3633f
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1d5d5621
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@13275d8
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@15b82644
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@20576557
+22:16:01,922 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@574cd322
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@45c2e0a6
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@119c745c
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@a7ad6e5
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3b1ed14b
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@690bc15e
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1bc776b7
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@475646d4
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@a0f53fc
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3db972d2
+22:16:01,923 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@1debc91c
+22:16:01,924 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@687e4c93
+22:16:01,924 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@181e72d3
+22:16:01,924 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@6ec7bce0
+22:16:01,924 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@2d272b0d
+22:16:01,924 DEBUG SCENELogger:20 - INSERT - co.pextra.botox.TemperatureEvent@3727f0ee
+22:16:01,924  INFO RuleTest:391 - Final checks
+22:16:01,976 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1954274594	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@481e91b6, co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c, co.pextra.botox.TemperatureEvent@45e1aa48, co.pextra.botox.TemperatureEvent@12c60152, co.pextra.botox.TemperatureEvent@2e807c54, co.pextra.botox.TemperatureEvent@6cd164a6, co.pextra.botox.TemperatureEvent@242a209e]}
+22:16:02,027 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:01.
+22:16:02,028 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@65ff3821
+22:16:02,028 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@609bec8b
+22:16:02,028 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@481e91b6, co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c, co.pextra.botox.TemperatureEvent@45e1aa48, co.pextra.botox.TemperatureEvent@12c60152, co.pextra.botox.TemperatureEvent@2e807c54, co.pextra.botox.TemperatureEvent@6cd164a6, co.pextra.botox.TemperatureEvent@242a209e] )
+22:16:02,029 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1954274594	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@481e91b6, co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c, co.pextra.botox.TemperatureEvent@45e1aa48, co.pextra.botox.TemperatureEvent@12c60152, co.pextra.botox.TemperatureEvent@2e807c54, co.pextra.botox.TemperatureEvent@6cd164a6, co.pextra.botox.TemperatureEvent@242a209e]}
+22:16:02,070 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -2054799394	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@1317b708, co.pextra.botox.TemperatureEvent@6438a7fe, co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de, co.pextra.botox.TemperatureEvent@4cdb8504, co.pextra.botox.TemperatureEvent@76db540e, co.pextra.botox.TemperatureEvent@10358c32, co.pextra.botox.TemperatureEvent@2af4129d, co.pextra.botox.TemperatureEvent@3a175162, co.pextra.botox.TemperatureEvent@1640190a]}
+22:16:02,070 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,071 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@3a1f3ea7
+22:16:02,071 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@5077f387
+22:16:02,071 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@1317b708, co.pextra.botox.TemperatureEvent@6438a7fe, co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de, co.pextra.botox.TemperatureEvent@4cdb8504, co.pextra.botox.TemperatureEvent@76db540e, co.pextra.botox.TemperatureEvent@10358c32, co.pextra.botox.TemperatureEvent@2af4129d, co.pextra.botox.TemperatureEvent@3a175162, co.pextra.botox.TemperatureEvent@1640190a] )
+22:16:02,071 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -2054799394	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@1317b708, co.pextra.botox.TemperatureEvent@6438a7fe, co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de, co.pextra.botox.TemperatureEvent@4cdb8504, co.pextra.botox.TemperatureEvent@76db540e, co.pextra.botox.TemperatureEvent@10358c32, co.pextra.botox.TemperatureEvent@2af4129d, co.pextra.botox.TemperatureEvent@3a175162, co.pextra.botox.TemperatureEvent@1640190a]}
+22:16:02,072 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 12573790	CAST: {sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@64469d8, co.pextra.botox.TemperatureEvent@2b8bd798, co.pextra.botox.TemperatureEvent@4c18621b, co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9, co.pextra.botox.TemperatureEvent@260a3a5e, co.pextra.botox.TemperatureEvent@49206065, co.pextra.botox.TemperatureEvent@3c0bbc9f]}
+22:16:02,072 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,072 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@5e73e1ea
+22:16:02,072 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@23d1675f
+22:16:02,072 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@64469d8, co.pextra.botox.TemperatureEvent@2b8bd798, co.pextra.botox.TemperatureEvent@4c18621b, co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9, co.pextra.botox.TemperatureEvent@260a3a5e, co.pextra.botox.TemperatureEvent@49206065, co.pextra.botox.TemperatureEvent@3c0bbc9f] )
+22:16:02,072 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 12573790	CAST: {sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@64469d8, co.pextra.botox.TemperatureEvent@2b8bd798, co.pextra.botox.TemperatureEvent@4c18621b, co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9, co.pextra.botox.TemperatureEvent@260a3a5e, co.pextra.botox.TemperatureEvent@49206065, co.pextra.botox.TemperatureEvent@3c0bbc9f]}
+22:16:02,073 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1667849346	CAST: {sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@2a2843ec, co.pextra.botox.TemperatureEvent@2042ccce, co.pextra.botox.TemperatureEvent@20de05e5, co.pextra.botox.TemperatureEvent@36c0d0bd, co.pextra.botox.TemperatureEvent@5e1fc2aa, co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587, co.pextra.botox.TemperatureEvent@18460128, co.pextra.botox.TemperatureEvent@74d3b638, co.pextra.botox.TemperatureEvent@4487c0c2]}
+22:16:02,073 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,073 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@3d433b5
+22:16:02,073 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@1fe6c4ff
+22:16:02,073 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@2a2843ec, co.pextra.botox.TemperatureEvent@2042ccce, co.pextra.botox.TemperatureEvent@20de05e5, co.pextra.botox.TemperatureEvent@36c0d0bd, co.pextra.botox.TemperatureEvent@5e1fc2aa, co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587, co.pextra.botox.TemperatureEvent@18460128, co.pextra.botox.TemperatureEvent@74d3b638, co.pextra.botox.TemperatureEvent@4487c0c2] )
+22:16:02,073 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1667849346	CAST: {sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@2a2843ec, co.pextra.botox.TemperatureEvent@2042ccce, co.pextra.botox.TemperatureEvent@20de05e5, co.pextra.botox.TemperatureEvent@36c0d0bd, co.pextra.botox.TemperatureEvent@5e1fc2aa, co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587, co.pextra.botox.TemperatureEvent@18460128, co.pextra.botox.TemperatureEvent@74d3b638, co.pextra.botox.TemperatureEvent@4487c0c2]}
+22:16:02,074 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 30401406	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@126f1ba8, co.pextra.botox.TemperatureEvent@3a08078c, co.pextra.botox.TemperatureEvent@53830483, co.pextra.botox.TemperatureEvent@29f85fe1, co.pextra.botox.TemperatureEvent@43a0a32d, co.pextra.botox.TemperatureEvent@396ef8b2, co.pextra.botox.TemperatureEvent@72825400, co.pextra.botox.TemperatureEvent@19ee1ae6, co.pextra.botox.TemperatureEvent@5f117b3d, co.pextra.botox.TemperatureEvent@1174a305, co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc, co.pextra.botox.TemperatureEvent@3db972d2, co.pextra.botox.TemperatureEvent@1debc91c, co.pextra.botox.TemperatureEvent@687e4c93, co.pextra.botox.TemperatureEvent@181e72d3, co.pextra.botox.TemperatureEvent@6ec7bce0, co.pextra.botox.TemperatureEvent@2d272b0d, co.pextra.botox.TemperatureEvent@3727f0ee]}
+22:16:02,074 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,074 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2154f750
+22:16:02,074 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@7fd91743
+22:16:02,074 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@126f1ba8, co.pextra.botox.TemperatureEvent@3a08078c, co.pextra.botox.TemperatureEvent@53830483, co.pextra.botox.TemperatureEvent@29f85fe1, co.pextra.botox.TemperatureEvent@43a0a32d, co.pextra.botox.TemperatureEvent@396ef8b2, co.pextra.botox.TemperatureEvent@72825400, co.pextra.botox.TemperatureEvent@19ee1ae6, co.pextra.botox.TemperatureEvent@5f117b3d, co.pextra.botox.TemperatureEvent@1174a305, co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc, co.pextra.botox.TemperatureEvent@3db972d2, co.pextra.botox.TemperatureEvent@1debc91c, co.pextra.botox.TemperatureEvent@687e4c93, co.pextra.botox.TemperatureEvent@181e72d3, co.pextra.botox.TemperatureEvent@6ec7bce0, co.pextra.botox.TemperatureEvent@2d272b0d, co.pextra.botox.TemperatureEvent@3727f0ee] )
+22:16:02,075 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 30401406	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@126f1ba8, co.pextra.botox.TemperatureEvent@3a08078c, co.pextra.botox.TemperatureEvent@53830483, co.pextra.botox.TemperatureEvent@29f85fe1, co.pextra.botox.TemperatureEvent@43a0a32d, co.pextra.botox.TemperatureEvent@396ef8b2, co.pextra.botox.TemperatureEvent@72825400, co.pextra.botox.TemperatureEvent@19ee1ae6, co.pextra.botox.TemperatureEvent@5f117b3d, co.pextra.botox.TemperatureEvent@1174a305, co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc, co.pextra.botox.TemperatureEvent@3db972d2, co.pextra.botox.TemperatureEvent@1debc91c, co.pextra.botox.TemperatureEvent@687e4c93, co.pextra.botox.TemperatureEvent@181e72d3, co.pextra.botox.TemperatureEvent@6ec7bce0, co.pextra.botox.TemperatureEvent@2d272b0d, co.pextra.botox.TemperatureEvent@3727f0ee]}
+22:16:02,076 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -264654018	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc]}
+22:16:02,076 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,076 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@69e99c25
+22:16:02,076 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@3664b804
+22:16:02,076 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc] )
+22:16:02,077 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -264654018	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@71b6d77f, co.pextra.botox.TemperatureEvent@1866da85, co.pextra.botox.TemperatureEvent@4cfa8227, co.pextra.botox.TemperatureEvent@78226c36, co.pextra.botox.TemperatureEvent@3f685162, co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5, co.pextra.botox.TemperatureEvent@3b1ed14b, co.pextra.botox.TemperatureEvent@690bc15e, co.pextra.botox.TemperatureEvent@1bc776b7, co.pextra.botox.TemperatureEvent@475646d4, co.pextra.botox.TemperatureEvent@a0f53fc]}
+22:16:02,077 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -668351810	CAST: {sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587]}
+22:16:02,077 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,077 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@42c05ed7
+22:16:02,077 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@1f2dd3f3
+22:16:02,077 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587] )
+22:16:02,077 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -668351810	CAST: {sensor=co.pextra.botox.Sensor@772861aa, transactions=[co.pextra.botox.TemperatureEvent@688d411b, co.pextra.botox.TemperatureEvent@382c90c2, co.pextra.botox.TemperatureEvent@859ea42, co.pextra.botox.TemperatureEvent@28737371, co.pextra.botox.TemperatureEvent@2af46afd, co.pextra.botox.TemperatureEvent@760245e1, co.pextra.botox.TemperatureEvent@31ceba99, co.pextra.botox.TemperatureEvent@295bf2a, co.pextra.botox.TemperatureEvent@bbf9e07, co.pextra.botox.TemperatureEvent@6ff6efdc, co.pextra.botox.TemperatureEvent@2b289ac9, co.pextra.botox.TemperatureEvent@4eb1c69, co.pextra.botox.TemperatureEvent@73d3e555, co.pextra.botox.TemperatureEvent@2b037cfc, co.pextra.botox.TemperatureEvent@44924587]}
+22:16:02,078 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 954848574	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de]}
+22:16:02,078 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,078 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@6808268b
+22:16:02,078 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2f9cdf8d
+22:16:02,078 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de] )
+22:16:02,078 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 954848574	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@2e51d054, co.pextra.botox.TemperatureEvent@4f5f6e45, co.pextra.botox.TemperatureEvent@615e3f51, co.pextra.botox.TemperatureEvent@407873d3, co.pextra.botox.TemperatureEvent@608bc8f8, co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa, co.pextra.botox.TemperatureEvent@2f66f0d0, co.pextra.botox.TemperatureEvent@4d62f4c6, co.pextra.botox.TemperatureEvent@7569ea63, co.pextra.botox.TemperatureEvent@ebd06a9, co.pextra.botox.TemperatureEvent@16c587de]}
+22:16:02,079 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -955055042	CAST: {sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9]}
+22:16:02,079 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,079 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@4d22c666
+22:16:02,079 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@2444ea42
+22:16:02,079 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9] )
+22:16:02,079 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -955055042	CAST: {sensor=co.pextra.botox.Sensor@18acfe88, transactions=[co.pextra.botox.TemperatureEvent@39c385d6, co.pextra.botox.TemperatureEvent@1cec219f, co.pextra.botox.TemperatureEvent@692e028d, co.pextra.botox.TemperatureEvent@6629ad09, co.pextra.botox.TemperatureEvent@43e1692f, co.pextra.botox.TemperatureEvent@3e7c4815, co.pextra.botox.TemperatureEvent@27df0f3d, co.pextra.botox.TemperatureEvent@c35af2a, co.pextra.botox.TemperatureEvent@44550792, co.pextra.botox.TemperatureEvent@1835d3ed, co.pextra.botox.TemperatureEvent@474c9131, co.pextra.botox.TemperatureEvent@66213a0d, co.pextra.botox.TemperatureEvent@aa4d8cc, co.pextra.botox.TemperatureEvent@3cb8c8ce, co.pextra.botox.TemperatureEvent@1fde0371, co.pextra.botox.TemperatureEvent@70c0a3d5, co.pextra.botox.TemperatureEvent@5c8e67b9]}
+22:16:02,080 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1113750626	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c]}
+22:16:02,080 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,080 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@115dc52b
+22:16:02,080 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@187f4295
+22:16:02,080 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c] )
+22:16:02,080 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: -1113750626	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@7187bac9, co.pextra.botox.TemperatureEvent@6b8280e6, co.pextra.botox.TemperatureEvent@6f139fc9, co.pextra.botox.TemperatureEvent@55259aa7, co.pextra.botox.TemperatureEvent@19382338, co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231, co.pextra.botox.TemperatureEvent@64f1fd08, co.pextra.botox.TemperatureEvent@6b3f6585, co.pextra.botox.TemperatureEvent@282ffbf5, co.pextra.botox.TemperatureEvent@3e104d4b, co.pextra.botox.TemperatureEvent@55e2fe3c]}
+22:16:02,082 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 959438750	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5]}
+22:16:02,082 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,082 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@500c1024
+22:16:02,082 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@771030b8
+22:16:02,082 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5] )
+22:16:02,082 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 959438750	CAST: {sensor=co.pextra.botox.Sensor@6631cb64, transactions=[co.pextra.botox.TemperatureEvent@11f406f8, co.pextra.botox.TemperatureEvent@987455b, co.pextra.botox.TemperatureEvent@622fdb81, co.pextra.botox.TemperatureEvent@1f3165e7, co.pextra.botox.TemperatureEvent@2ec3633f, co.pextra.botox.TemperatureEvent@1d5d5621, co.pextra.botox.TemperatureEvent@13275d8, co.pextra.botox.TemperatureEvent@15b82644, co.pextra.botox.TemperatureEvent@20576557, co.pextra.botox.TemperatureEvent@574cd322, co.pextra.botox.TemperatureEvent@45c2e0a6, co.pextra.botox.TemperatureEvent@119c745c, co.pextra.botox.TemperatureEvent@a7ad6e5]}
+22:16:02,082 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 2077094622	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa]}
+22:16:02,083 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,083 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@cbc6a0a
+22:16:02,083 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@6427dfe5
+22:16:02,083 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa] )
+22:16:02,083 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 2077094622	CAST: {sensor=co.pextra.botox.Sensor@8a2a6a, transactions=[co.pextra.botox.TemperatureEvent@5412bfea, co.pextra.botox.TemperatureEvent@44a6a68e, co.pextra.botox.TemperatureEvent@4743a322, co.pextra.botox.TemperatureEvent@79316f3a, co.pextra.botox.TemperatureEvent@381d7219, co.pextra.botox.TemperatureEvent@49fe3142, co.pextra.botox.TemperatureEvent@13fed1ec, co.pextra.botox.TemperatureEvent@61c42416, co.pextra.botox.TemperatureEvent@329a1f8d, co.pextra.botox.TemperatureEvent@a565cbd, co.pextra.botox.TemperatureEvent@6fc29daa]}
+22:16:02,083 DEBUG SCENELogger:17 - SITUATION ACTIVATION - TYPE: co.pextra.botox.TemperatureSituation	HASH: 470937630	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231]}
+22:16:02,084 DEBUG SCENELogger:19 - 	Activation timestamp: 2020 03 08 22:16:02.
+22:16:02,084 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@6fe21cab
+22:16:02,084 DEBUG SCENELogger:20 - INSERT - br.ufes.inf.lprm.scene.model.impl.ParticipationImpl@717686b4
+22:16:02,084 DEBUG SCENELogger:20 - INSERT - TemperatureSituation( sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231] )
+22:16:02,084 DEBUG SCENELogger:25 - UPDATE - TYPE: co.pextra.botox.TemperatureSituation	HASH: 470937630	CAST: {sensor=co.pextra.botox.Sensor@60859f5a, transactions=[co.pextra.botox.TemperatureEvent@66420549, co.pextra.botox.TemperatureEvent@15dc339f, co.pextra.botox.TemperatureEvent@6cd56321, co.pextra.botox.TemperatureEvent@34acbc60, co.pextra.botox.TemperatureEvent@42b28ff1, co.pextra.botox.TemperatureEvent@36061cf3, co.pextra.botox.TemperatureEvent@718dbd79, co.pextra.botox.TemperatureEvent@20134094, co.pextra.botox.TemperatureEvent@76889e60, co.pextra.botox.TemperatureEvent@706fe5c6, co.pextra.botox.TemperatureEvent@56380231]}

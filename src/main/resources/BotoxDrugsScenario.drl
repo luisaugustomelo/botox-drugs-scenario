@@ -16,64 +16,68 @@ end
 /*
 Verifica se em uma lista de 3 ou mais temperaturas existem temperaturas acima de -3 graus em uma janela de tempo de 2 minutos. 
 */
-rule "Ocorreram 3 mudanças de temperatura com o mesmo sensor em um intervalo de 2 minutos"
-@role(situation)
-@type(TemperatureSituation)
-    when
-       sensor : Sensor();
-       transactions: List(size > 5) from accumulate(
-          transaction: TemperatureEvent(sensorId == sensor.sensorId) over window:time (2m),
-          collectList(transaction)
-       )
-     then
-       SituationHelper.situationDetected(drools);
-end
 
-rule "More than 5 high temperatures in two minutes for a sensor of temperature"
+rule "Ocorreram 3 alterações de temperatura com o mesmo sensor em 2 minutos"
 @role(situation)
 @type(TemperatureSituation)
     when
        sensor : Sensor();
        transactions: List(size > 3) from accumulate(
-          transaction: TemperatureEvent(sensorId == sensor.sensorId, temperature > -3) over window:time (2m),
+          transaction: TemperatureEvent(sensorId == sensor.sensorId) 
+          		over window:time (2m),
           collectList(transaction)
        )
      then
        SituationHelper.situationDetected(drools);
 end
-
-rule "More than 10 high temperatures in two minutes for a sensor of temperature"
+rule "Mais de 5 elevações de temperaturas em um intervalo de 2 minutos para um único sensor"
 @role(situation)
 @type(TemperatureSituation)
     when
        sensor : Sensor();
-       transactions: List(size > 6) from accumulate(
-          transaction: TemperatureEvent(sensorId == sensor.sensorId, temperature > 0) over window:time (2m),
+       transactions: List(size > 5) from accumulate(
+          transaction: TemperatureEvent(sensorId == sensor.sensorId, temperature > -5) 
+      			over window:time (2m),
           collectList(transaction)
        )
      then
        SituationHelper.situationDetected(drools);
 end
+rule "Mais de 10 elevações de temperaturas em um intervalo de 2 minutos para um único sensor"
+@role(situation)
+@type(TemperatureSituation)
+    when
+       sensor : Sensor();
+       transactions: List(size > 10) from accumulate(
+          transaction: TemperatureEvent(sensorId == sensor.sensorId, temperature > 0) 
+      			over window:time (2m),
+          collectList(transaction)
+       )
+     then
+       SituationHelper.situationDetected(drools);
+end
+rule "inicia uma situação quando houver um caso suspeito"
+	when
+       temperatureSituation: List(size > 2) from accumulate (
+         Activation($sit: situation, $sit isA TemperatureSituation.class) 
+     			over window:time (2m);
+         collectList($sit)
+       )
+	then
+		//Para 2 (duas) ativações de regras que ocorreram num intervalo de 2 minutos, 
+		//um processo é iniciado.
+		ProcessInstance processInstance = kcontext.getKieRuntime()
+										.startProcess("co.pextra.botox.notification");
+end
 
 /*
-Se houver mais que 3 situações de elevação de temperatura, em uma janela de tempo de 2 minutos, 
+Se houver mais que 3 situações de elevação de temperatura, em uma janela de tempo de 2D minutos, 
 uma ação de notificação de elevação de temperatura é disparada!
 
 ## No exemplo exposto são disparados 4 situações de temperaturas acima de -3 graus. vide RuleTest.java##
 */
 
-rule "start botox situation when have a one case suspicious"
-	when
-       temperatureSituation: List(size > 2) from accumulate (
-         Activation($sit: situation, $sit isA TemperatureSituation.class) over window:time (2m);
-         collectList($sit)
-       )
-	then
-		System.out.println("Aqui deverá iniciar o print de um processo");
-		//ProcessInstance processInstance = kcontext.getKieRuntime().startProcess("co.pextra.botox.notification");
-		System.out.println("Aqui deverá terminar o print de um processo");
-		
-end
+
 
 /* Criar uma regra que verifica se existem 5 SENSORES (e não ocorrencia de temperatura) em uma janela de tempo de 2 minutos com temperatura elevada.
 *
