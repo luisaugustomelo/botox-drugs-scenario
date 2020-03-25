@@ -10,3 +10,6 @@ Esse é um cenário de situação, no qual é necessário realizar a medição d
 - Escrever os arquivos carregados no disco
 - Carregar os arquivos BPMN e .drl na aplicação de monitoramento
 - Rodar aplicação
+
+## License
+MIT
