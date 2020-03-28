@@ -2,6 +2,14 @@
 
 Esse é um cenário de situação, no qual é necessário realizar a medição de temperatura para medicamentos utilizando o Scene.
 
+## Dependências
+
+Java
+Node
+Maven
+jBPM
+Drools
+
 ## Procedimento
 
 - Modelar os arquivos .drl
